@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SpaceRace.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{1E47D28D-6A0D-4E4D-A1B7-4DA0458473C1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SpaceRace.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SpaceRaceEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{DECCB897-CB3E-4CBF-A7FD-283FE46E7395}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SpaceRace">
+			<UniqueIdentifier>{F8502E13-2982-4BA5-9DFD-FF386C2EE538}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SpaceRace\SpaceRace.Build.cs">
+			<Filter>Source\SpaceRace</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SpaceRace\SpaceRace.cpp">
+			<Filter>Source\SpaceRace</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SpaceRace\SpaceRace.h">
+			<Filter>Source\SpaceRace</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SpaceRace\test.cpp">
+			<Filter>Source\SpaceRace</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SpaceRace\test.h">
+			<Filter>Source\SpaceRace</Filter>
+		</ClInclude >
+		<Filter Include="Source\SpaceRace\Resources">
+			<UniqueIdentifier>{6519C26F-DE2B-4546-8AF4-65D021E44CCA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\SpaceRace\Resources\Windows">
+			<UniqueIdentifier>{62A69F63-9B56-405C-B96C-0287767FE6DB}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\SpaceRace\Resources\Windows\SpaceRace.rc">
+			<Filter>Source\SpaceRace\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
