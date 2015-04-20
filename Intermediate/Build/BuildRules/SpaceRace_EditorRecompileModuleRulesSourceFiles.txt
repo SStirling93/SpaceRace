@@ -353,6 +353,7 @@ D:\Program Files\Epic Games\4.7\Engine\Plugins\ScriptGeneratorPlugin\Source\Scri
 D:\Program Files\Epic Games\4.7\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 D:\Program Files\Epic Games\4.7\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 D:\Program Files\Epic Games\4.7\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
-C:\Users\Keeper\Documents\BitBucket\New folder\SpaceRace\Source\SpaceRace\SpaceRace.Build.cs
-C:\Users\Keeper\Documents\BitBucket\New folder\SpaceRace\Source\SpaceRace.Target.cs
-C:\Users\Keeper\Documents\BitBucket\New folder\SpaceRace\Source\SpaceRaceEditor.Target.cs
+C:\Users\Keeper\Documents\GitHub\SpaceRace\Source\SpaceRace\SpaceRace.Build.cs
+C:\Users\Keeper\Documents\GitHub\SpaceRace\Source\SpaceRace.Target.cs
+C:\Users\Keeper\Documents\GitHub\SpaceRace\Source\SpaceRaceEditor.Target.cs
+aceRace\Source\SpaceRaceEditor.Target.cs
