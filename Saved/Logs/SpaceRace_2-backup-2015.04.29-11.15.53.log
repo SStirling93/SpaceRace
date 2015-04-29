@@ -1,0 +1,41 @@
+﻿Log file open, 04/29/15 11:15:48
+LogInit:Display: Running engine for game: SpaceRace
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  /Temp/Autosaves/Game/EndlessRunner/Maps/UEDPC2DSideScrollerExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+LogInit: Base directory: W:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.29-01.15.48:771][  0]LogTaskGraph: Started task graph with 3 named threads and 7 total threads.
+[2015.04.29-01.15.48:831][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.29-01.15.48:841][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.29-01.15.48:850][  0]LogInit: Object subsystem initialized
+[2015.04.29-01.15.48:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.29-01.15.48:852][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Documents/GitHub/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.29-01.15.48:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.29-01.15.48:852][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Documents/GitHub/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.29-01.15.48:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.29-01.15.48:852][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Documents/GitHub/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.29-01.15.48:852][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.29-01.15.48:852][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.29-01.15.48:855][  0]LogInit: Computer: LAB-SEFS515-02
+[2015.04.29-01.15.48:855][  0]LogInit: User: n8695164
+[2015.04.29-01.15.48:855][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.04.29-01.15.48:855][  0]LogInit: High frequency timer resolution =3.223300 MHz
+[2015.04.29-01.15.48:855][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx) Virtual=8192.0GB
+[2015.04.29-01.15.48:855][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.29-01.15.48:855][  0]LogMemory: Process Physical Memory: 48.84 MB used, 48.84 MB peak
+[2015.04.29-01.15.48:855][  0]LogMemory: Process Virtual Memory: 25.47 MB used, 25.47 MB peak
+[2015.04.29-01.15.48:855][  0]LogMemory: Physical Memory: 6549.43 MB used, 32720.52 MB total
+[2015.04.29-01.15.48:855][  0]LogMemory: Virtual Memory: 275.92 MB used, 8388608.00 MB total
+[2015.04.29-01.15.48:875][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.04.29-01.15.48:875][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.04.29-01.15.48:875][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.29-01.15.48:879][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.29-01.15.48:885][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.29-01.15.48:934][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.29-01.15.48:987][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to di
