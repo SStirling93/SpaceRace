@@ -1,0 +1,1394 @@
+﻿Log file open, 05/05/15 21:24:10
+LogInit:Display: Running engine for game: SpaceRace
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: W:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.05-11.24.10:120][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.05.05-11.24.10:192][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.05-11.24.10:221][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.05-11.24.10:230][  0]LogInit: Object subsystem initialized
+[2015.05.05-11.24.10:232][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.05-11.24.10:232][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-11.24.10:233][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.05-11.24.10:233][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-11.24.10:233][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.05-11.24.10:233][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-11.24.10:234][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.05-11.24.10:234][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.05-11.24.10:238][  0]LogInit: Computer: LAB-SEFS515-09
+[2015.05.05-11.24.10:238][  0]LogInit: User: n8695164
+[2015.05.05-11.24.10:238][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.05.05-11.24.10:238][  0]LogInit: High frequency timer resolution =3.222695 MHz
+[2015.05.05-11.24.10:239][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx) Virtual=8192.0GB
+[2015.05.05-11.24.10:239][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.24.10:239][  0]LogMemory: Process Physical Memory: 46.52 MB used, 46.52 MB peak
+[2015.05.05-11.24.10:239][  0]LogMemory: Process Virtual Memory: 26.68 MB used, 26.68 MB peak
+[2015.05.05-11.24.10:239][  0]LogMemory: Physical Memory: 4901.28 MB used, 32720.52 MB total
+[2015.05.05-11.24.10:240][  0]LogMemory: Virtual Memory: 275.23 MB used, 8388608.00 MB total
+[2015.05.05-11.24.10:285][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.05.05-11.24.10:286][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.05.05-11.24.10:286][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.05-11.24.10:290][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.05-11.24.10:317][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.05-11.24.10:378][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.05-11.24.10:428][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.05-11.24.10:429][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.05-11.24.10:497][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.05-11.24.12:573][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-11.24.13:091][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-11.24.13:165][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.05-11.24.13:197][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.05-11.24.13:197][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.05-11.24.13:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.05-11.24.13:198][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.05-11.24.13:308][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.05-11.24.13:320][  0]LogDerivedDataCache: Using Local data cache path C:/Users/n8695164/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.05-11.24.13:597][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.05-11.24.13:598][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.05-11.24.13:935][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.05-11.24.14:025][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.05-11.24.14:884][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.05-11.24.15:163][  0]SourceControl: Info Source control is disabled
+[2015.05.05-11.24.15:164][  0]SourceControl: Info Source control is disabled
+[2015.05.05-11.24.15:164][  0]SourceControl: Info Source control is disabled
+[2015.05.05-11.24.15:164][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.05-11.24.15:164][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.05-11.24.15:172][  0]SourceControl: Info Source control is disabled
+[2015.05.05-11.24.15:438][  0]LogObj: 24236 objects as part of root set at end of initial load.
+[2015.05.05-11.24.15:439][  0]LogUObjectAllocator: 5138808 out of 0 bytes used by permanent object pool.
+[2015.05.05-11.24.15:526][  0]LogEngine: Initializing Engine...
+[2015.05.05-11.24.18:665][  0]LogInit: XAudio2 using 'DELL S2340T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.05-11.24.18:672][  0]LogInit: FAudioDevice initialized.
+[2015.05.05-11.24.18:712][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.05-11.24.18:729][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.05-11.24.18:733][  0]LogInit: Texture streaming: Enabled
+[2015.05.05-11.24.18:823][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.05-11.24.18:824][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.05-11.24.18:824][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.05-11.24.18:824][  0]LogAnalytics: SetUserId c8dc6e25478584d4632393afdccbfded|275130378b824b80adb050f14047e778|88cf9443-166a-43f7-9f17-b5321103ecb1
+[2015.05.05-11.24.18:825][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.05-11.24.18:844][  0]LogInit: Transaction tracking system initialized
+[2015.05.05-11.24.19:113][  0]BlueprintLog: New page: Editor Load
+[2015.05.05-11.24.19:154][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2015.05.05-11.24.19:155][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.05-11.24.19:707][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-11.24.20:032][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-11.24.20:393][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.05-11.24.20:394][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.05-11.24.20:398][  0]LogConsoleResponse:Display: 
+[2015.05.05-11.24.20:512][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.05-11.24.20:722][  0]SourceControl: Info Source control is disabled
+[2015.05.05-11.24.20:722][  0]Cmd: MAP LOAD FILE="C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Content/EndlessRunner/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.05-11.24.20:723][  0]LightingResults: New page: Lighting Build
+[2015.05.05-11.24.20:735][  0]MapCheck: New page: Map Check
+[2015.05.05-11.24.20:736][  0]LightingResults: New page: Lighting Build
+[2015.05.05-11.24.20:741][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001675A980
+[2015.05.05-11.24.22:018][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.05-11.24.22:021][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.24.22:022][  0]Cmd: MAP CHECKDEP
+[2015.05.05-11.24.22:022][  0]MapCheck: New page: 2DSideScrollerExampleMap - 6 May 2015 7:24:22 am
+[2015.05.05-11.24.22:150][  0]MapCheck:Warning: Warning Sprite0 PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_0.Sprite0 : Externally referenced 
+[2015.05.05-11.24.22:150][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_550.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:151][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_551.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:151][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_552.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:151][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_553.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:152][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_554.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:152][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_555.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:152][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_556.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:153][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_557.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:153][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_558.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:153][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_559.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:154][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_560.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:154][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1023.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:154][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1024.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:155][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1025.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:155][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1026.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:155][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1027.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:156][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1028.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:156][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1029.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:156][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1030.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:156][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1031.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:157][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1032.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:157][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1033.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:157][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1408.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:158][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1409.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:158][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1410.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:158][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1411.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:159][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1412.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:159][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1413.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:159][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1414.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:160][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1415.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:160][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1416.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:160][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1417.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:161][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1418.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:161][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin2_79.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:161][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin3_127.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:162][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin4_258.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:162][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin5_377.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:162][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin6_576.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:162][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin7_707.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:163][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin8_846.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:163][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin9_961.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:163][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin10_1092.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:164][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin11_1239.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:164][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin12_1430.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:165][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_StartLevel_416.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:165][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_EndLevel_195.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:165][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_MidLevel_263.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:165][  0]MapCheck:Warning: Warning Asteroid PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Asteroid_C_117.Asteroid : Externally referenced 
+[2015.05.05-11.24.22:166][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite_322.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:166][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite2_501.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:166][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite3_158.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:167][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite4_227.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:167][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite5_288.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:167][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite6_371.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:168][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite7_422.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:168][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.asteroid2_Sprite8_497.PaperSprite : Externally referenced 
+[2015.05.05-11.24.22:168][  0]MapCheck:Warning: Warning RightEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.RightEdge : Externally referenced 
+[2015.05.05-11.24.22:169][  0]MapCheck:Warning: Warning LeftEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.LeftEdge : Externally referenced 
+[2015.05.05-11.24.22:169][  0]MapCheck:Warning: Warning TopEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.TopEdge : Externally referenced 
+[2015.05.05-11.24.22:169][  0]MapCheck:Warning: Warning BottomEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.BottomEdge : Externally referenced 
+[2015.05.05-11.24.22:170][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A0_Sprite_2.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:170][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A1_Sprite_17.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:170][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A2_Sprite_20.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:171][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A3_Sprite_23.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:171][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A4_Sprite_26.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:171][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A5_Sprite_0.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:171][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A6_Sprite_31.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:172][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B0_Sprite_5.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:172][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B1_Sprite_34.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:172][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B2_Sprite_37.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:173][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B3_Sprite_40.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:173][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B4_Sprite_43.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:173][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B5_Sprite_46.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:174][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B6_Sprite_49.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:174][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C0_Sprite_8.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:174][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C1_Sprite_53.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:175][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C2_Sprite_56.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:175][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C3_Sprite_59.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:175][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C4_Sprite_62.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:176][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C5_Sprite_65.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:176][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C6_Sprite_68.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:176][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D0_Sprite_14.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:177][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D1_Sprite_71.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:177][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D2_Sprite_74.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:177][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D3_Sprite_77.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:177][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D4_Sprite_80.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:178][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D5_Sprite_83.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:178][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D6_Sprite_89.RenderComponent : Externally referenced 
+[2015.05.05-11.24.22:178][  0]MapCheck: Info Map check complete: 0 Error(s), 89 Warning(s), took 156.064ms to complete.
+[2015.05.05-11.24.22:192][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.470
+[2015.05.05-11.24.22:316][  0]LogCollectionManager: Loaded 0 collections in 0.001465 seconds
+[2015.05.05-11.24.22:326][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 1697 classes and 263 folders.
+[2015.05.05-11.24.22:380][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0055 seconds. Added 1 classes and 2 folders.
+[2015.05.05-11.24.22:436][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.05-11.24.22:438][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.05-11.24.22:475][  0]LogLoad: Full Startup: 14.19 seconds (BP compile: 0.41 seconds)
+[2015.05.05-11.24.22:506][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/EndlessRunner/Blueprints'
+[2015.05.05-11.24.22:675][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.05-11.24.22:983][  3]LogAssetRegistry: Asset discovery search completed in 3.8399 seconds
+[2015.05.05-11.24.27:659][563]LogEditorViewport: Clicking on Actor (LMB): Gameplay_Screen_C (Gameplay_Screen)
+[2015.05.05-11.24.27:735][566]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (LeftEdge)
+[2015.05.05-11.24.32:121][929]LogRenderer:Warning: Reallocating scene render targets to support 1208x712 (Frame:684).
+[2015.05.05-11.24.47:132][775]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:148][776]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:166][777]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:187][778]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:206][779]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:222][780]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:261][783]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:278][784]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:342][789]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:357][790]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:396][793]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:411][794]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:426][795]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:444][796]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:463][797]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:479][798]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:494][799]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:509][800]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:524][801]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:539][802]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:613][808]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:628][809]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:643][810]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:658][811]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:673][812]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:688][813]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:834][825]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:861][827]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:876][828]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:892][829]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:907][830]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:922][831]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:937][832]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:952][833]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:967][834]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:982][835]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.47:997][836]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:012][837]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:039][839]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:066][841]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:081][842]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:167][849]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:784][901]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:836][905]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:863][907]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:902][910]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.48:989][917]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.49:004][918]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.49:031][920]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.49:107][926]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.49:122][927]PIE:Warning: Warning Mobility of Gameplay_Screen_C_27 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.51:226][ 98]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.05-11.24.51:251][ 98]LogPlayLevel: [PIE] Compiling Gameplay_Screen before PIE...
+[2015.05.05-11.24.51:351][ 98]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.05-11.24.51:379][ 98]LogPlayLevel: PIE:  Blueprint regeneration took 153 ms (1 blueprints)
+[2015.05.05-11.24.51:380][ 98]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 7:24:51 am)
+[2015.05.05-11.24.51:388][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007537s)
+[2015.05.05-11.24.51:389][ 98]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.05.05-11.24.51:389][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008778s)
+[2015.05.05-11.24.51:444][ 98]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.24.51:446][ 98]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.24.51:458][ 98]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.24.51
+[2015.05.05-11.24.51:459][ 98]LogWorld: Bringing up level for play took: 0.012791
+[2015.05.05-11.24.51:472][ 98]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.424
+[2015.05.05-11.24.53:926][309]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.53:957][311]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.53:975][312]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.53:996][313]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:029][314]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:063][315]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:082][316]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:105][317]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:147][318]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:181][320]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:211][322]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:228][323]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:299][329]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:316][330]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:473][344]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:524][348]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:541][349]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:559][350]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:609][354]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:702][362]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:719][363]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:737][364]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:755][365]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:772][366]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:801][368]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:840][371]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:858][372]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:875][373]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.54:903][375]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:213][403]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:230][404]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:248][405]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:266][406]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:326][411]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:387][416]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:404][417]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:433][419]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:687][442]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:705][443]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:723][444]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:740][445]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:769][447]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.55:915][460]Cmd: RestartLevel
+[2015.05.05-11.24.55:932][461]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.24.55:933][461]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.24.55:933][461]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 1
+SessionName : 
+Reason      : Loading a New Map
+
+Purging the undo buffer...
+
+[2015.05.05-11.24.55:952][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026A6B6A0
+[2015.05.05-11.24.55:953][461]Cmd: MEM
+[2015.05.05-11.24.55:965][461]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.24.55:966][461]LogMemory: Process Physical Memory: 532.36 MB used, 532.36 MB peak
+[2015.05.05-11.24.55:966][461]LogMemory: Process Virtual Memory: 437.95 MB used, 446.99 MB peak
+[2015.05.05-11.24.55:966][461]LogMemory: Physical Memory: 5792.35 MB used, 32720.52 MB total
+[2015.05.05-11.24.55:967][461]LogMemory: Virtual Memory: 991.42 MB used, 8388608.00 MB total
+[2015.05.05-11.24.55:967][461]LogMemory: 
+[2015.05.05-11.24.55:967][461]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.24.55:975][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007532s)
+[2015.05.05-11.24.55:976][461]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2015.05.05-11.24.55:976][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008703s)
+[2015.05.05-11.24.55:976][461]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.24.55:978][461]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.24.55:990][461]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.24.55
+[2015.05.05-11.24.55:992][461]LogWorld: Bringing up level for play took: 0.012654
+[2015.05.05-11.24.56:275][486]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.56:336][491]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.56:452][501]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.56:513][506]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.56:953][546]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.57:135][562]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.57:153][563]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.24.58:968][730]PIE:Warning: Warning Mobility of Gameplay_Screen_C_35 : LeftEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.25.00:633][874]Cmd: RestartLevel
+[2015.05.05-11.25.00:644][875]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.00:645][875]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.00:660][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026A69BC0
+[2015.05.05-11.25.00:663][875]Cmd: MEM
+[2015.05.05-11.25.00:675][875]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.00:676][875]LogMemory: Process Physical Memory: 533.70 MB used, 537.62 MB peak
+[2015.05.05-11.25.00:676][875]LogMemory: Process Virtual Memory: 437.94 MB used, 446.99 MB peak
+[2015.05.05-11.25.00:676][875]LogMemory: Physical Memory: 5796.34 MB used, 32720.52 MB total
+[2015.05.05-11.25.00:677][875]LogMemory: Virtual Memory: 991.64 MB used, 8388608.00 MB total
+[2015.05.05-11.25.00:677][875]LogMemory: 
+[2015.05.05-11.25.00:677][875]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.00:685][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007581s)
+[2015.05.05-11.25.00:686][875]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2015.05.05-11.25.00:686][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008743s)
+[2015.05.05-11.25.00:686][875]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.00:688][875]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.00:700][875]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.00
+[2015.05.05-11.25.00:701][875]LogWorld: Bringing up level for play took: 0.012543
+[2015.05.05-11.25.05:439][301]Cmd: RestartLevel
+[2015.05.05-11.25.05:450][302]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.05:451][302]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.05:465][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BC34EA0
+[2015.05.05-11.25.05:468][302]Cmd: MEM
+[2015.05.05-11.25.05:481][302]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.05:481][302]LogMemory: Process Physical Memory: 534.88 MB used, 537.62 MB peak
+[2015.05.05-11.25.05:482][302]LogMemory: Process Virtual Memory: 437.94 MB used, 446.99 MB peak
+[2015.05.05-11.25.05:482][302]LogMemory: Physical Memory: 5800.33 MB used, 32720.52 MB total
+[2015.05.05-11.25.05:482][302]LogMemory: Virtual Memory: 991.64 MB used, 8388608.00 MB total
+[2015.05.05-11.25.05:482][302]LogMemory: 
+[2015.05.05-11.25.05:483][302]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.05:490][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007522s)
+[2015.05.05-11.25.05:491][302]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2015.05.05-11.25.05:492][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008680s)
+[2015.05.05-11.25.05:492][302]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.05:494][302]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.05:506][302]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.05
+[2015.05.05-11.25.05:507][302]LogWorld: Bringing up level for play took: 0.012556
+[2015.05.05-11.25.11:307][686]Cmd: RestartLevel
+[2015.05.05-11.25.11:321][687]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.11:322][687]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.11:336][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BC367A0
+[2015.05.05-11.25.11:340][687]Cmd: MEM
+[2015.05.05-11.25.11:352][687]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.11:353][687]LogMemory: Process Physical Memory: 542.71 MB used, 542.71 MB peak
+[2015.05.05-11.25.11:353][687]LogMemory: Process Virtual Memory: 450.03 MB used, 450.03 MB peak
+[2015.05.05-11.25.11:354][687]LogMemory: Physical Memory: 5804.59 MB used, 32720.52 MB total
+[2015.05.05-11.25.11:354][687]LogMemory: Virtual Memory: 1003.88 MB used, 8388608.00 MB total
+[2015.05.05-11.25.11:354][687]LogMemory: 
+[2015.05.05-11.25.11:354][687]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.11:362][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007560s)
+[2015.05.05-11.25.11:363][687]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2015.05.05-11.25.11:363][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008727s)
+[2015.05.05-11.25.11:364][687]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.11:365][687]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.11:377][687]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.11
+[2015.05.05-11.25.11:379][687]LogWorld: Bringing up level for play took: 0.012430
+[2015.05.05-11.25.16:613][101]Cmd: RestartLevel
+[2015.05.05-11.25.16:624][102]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.16:624][102]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.16:639][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A13D620
+[2015.05.05-11.25.16:642][102]Cmd: MEM
+[2015.05.05-11.25.16:654][102]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.16:655][102]LogMemory: Process Physical Memory: 542.42 MB used, 542.80 MB peak
+[2015.05.05-11.25.16:655][102]LogMemory: Process Virtual Memory: 446.96 MB used, 451.04 MB peak
+[2015.05.05-11.25.16:655][102]LogMemory: Physical Memory: 5805.21 MB used, 32720.52 MB total
+[2015.05.05-11.25.16:656][102]LogMemory: Virtual Memory: 1000.94 MB used, 8388608.00 MB total
+[2015.05.05-11.25.16:656][102]LogMemory: 
+[2015.05.05-11.25.16:656][102]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.16:664][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007543s)
+[2015.05.05-11.25.16:665][102]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2015.05.05-11.25.16:665][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008794s)
+[2015.05.05-11.25.16:665][102]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.16:667][102]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.16:680][102]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.16
+[2015.05.05-11.25.16:681][102]LogWorld: Bringing up level for play took: 0.012744
+[2015.05.05-11.25.21:503][535]Cmd: RestartLevel
+[2015.05.05-11.25.21:514][536]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.21:515][536]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.21:530][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A13EAC0
+[2015.05.05-11.25.21:533][536]Cmd: MEM
+[2015.05.05-11.25.21:546][536]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.21:546][536]LogMemory: Process Physical Memory: 542.52 MB used, 542.80 MB peak
+[2015.05.05-11.25.21:546][536]LogMemory: Process Virtual Memory: 446.96 MB used, 451.04 MB peak
+[2015.05.05-11.25.21:546][536]LogMemory: Physical Memory: 5805.84 MB used, 32720.52 MB total
+[2015.05.05-11.25.21:547][536]LogMemory: Virtual Memory: 1000.97 MB used, 8388608.00 MB total
+[2015.05.05-11.25.21:547][536]LogMemory: 
+[2015.05.05-11.25.21:547][536]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.21:555][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007557s)
+[2015.05.05-11.25.21:556][536]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2015.05.05-11.25.21:556][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008704s)
+[2015.05.05-11.25.21:556][536]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.21:558][536]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.21:570][536]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.21
+[2015.05.05-11.25.21:572][536]LogWorld: Bringing up level for play took: 0.012764
+[2015.05.05-11.25.26:211][947]Cmd: RestartLevel
+[2015.05.05-11.25.26:222][948]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.26:223][948]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.26:237][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A13EDE0
+[2015.05.05-11.25.26:240][948]Cmd: MEM
+[2015.05.05-11.25.26:253][948]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.26:253][948]LogMemory: Process Physical Memory: 542.67 MB used, 542.82 MB peak
+[2015.05.05-11.25.26:254][948]LogMemory: Process Virtual Memory: 447.00 MB used, 451.04 MB peak
+[2015.05.05-11.25.26:254][948]LogMemory: Physical Memory: 5804.98 MB used, 32720.52 MB total
+[2015.05.05-11.25.26:254][948]LogMemory: Virtual Memory: 1005.78 MB used, 8388608.00 MB total
+[2015.05.05-11.25.26:254][948]LogMemory: 
+[2015.05.05-11.25.26:255][948]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.26:263][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007525s)
+[2015.05.05-11.25.26:263][948]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2015.05.05-11.25.26:264][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008673s)
+[2015.05.05-11.25.26:264][948]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.26:266][948]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.26:278][948]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.26
+[2015.05.05-11.25.26:279][948]LogWorld: Bringing up level for play took: 0.012550
+[2015.05.05-11.25.30:929][356]Cmd: RestartLevel
+[2015.05.05-11.25.30:940][357]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.30:941][357]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.30:956][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A1C4900
+[2015.05.05-11.25.30:959][357]Cmd: MEM
+[2015.05.05-11.25.30:971][357]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.30:972][357]LogMemory: Process Physical Memory: 542.62 MB used, 542.82 MB peak
+[2015.05.05-11.25.30:972][357]LogMemory: Process Virtual Memory: 446.90 MB used, 451.04 MB peak
+[2015.05.05-11.25.30:972][357]LogMemory: Physical Memory: 5804.63 MB used, 32720.52 MB total
+[2015.05.05-11.25.30:973][357]LogMemory: Virtual Memory: 991.34 MB used, 8388608.00 MB total
+[2015.05.05-11.25.30:973][357]LogMemory: 
+[2015.05.05-11.25.30:973][357]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.30:981][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007525s)
+[2015.05.05-11.25.30:982][357]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2015.05.05-11.25.30:982][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008665s)
+[2015.05.05-11.25.30:982][357]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.30:984][357]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.30:996][357]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.30
+[2015.05.05-11.25.30:997][357]LogWorld: Bringing up level for play took: 0.012304
+[2015.05.05-11.25.35:644][767]Cmd: RestartLevel
+[2015.05.05-11.25.35:656][768]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.35:657][768]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.35:671][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A13CB80
+[2015.05.05-11.25.35:674][768]Cmd: MEM
+[2015.05.05-11.25.35:687][768]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.35:687][768]LogMemory: Process Physical Memory: 546.66 MB used, 550.69 MB peak
+[2015.05.05-11.25.35:688][768]LogMemory: Process Virtual Memory: 450.93 MB used, 454.98 MB peak
+[2015.05.05-11.25.35:688][768]LogMemory: Physical Memory: 5809.42 MB used, 32720.52 MB total
+[2015.05.05-11.25.35:688][768]LogMemory: Virtual Memory: 990.59 MB used, 8388608.00 MB total
+[2015.05.05-11.25.35:688][768]LogMemory: 
+[2015.05.05-11.25.35:689][768]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.35:696][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007561s)
+[2015.05.05-11.25.35:697][768]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2015.05.05-11.25.35:698][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008754s)
+[2015.05.05-11.25.35:698][768]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.35:700][768]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.35:712][768]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.35
+[2015.05.05-11.25.35:713][768]LogWorld: Bringing up level for play took: 0.012578
+[2015.05.05-11.25.40:355][173]Cmd: RestartLevel
+[2015.05.05-11.25.40:366][174]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.40:367][174]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.40:382][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A1C7CE0
+[2015.05.05-11.25.40:385][174]Cmd: MEM
+[2015.05.05-11.25.40:398][174]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.40:398][174]LogMemory: Process Physical Memory: 546.68 MB used, 550.69 MB peak
+[2015.05.05-11.25.40:398][174]LogMemory: Process Virtual Memory: 450.93 MB used, 454.98 MB peak
+[2015.05.05-11.25.40:399][174]LogMemory: Physical Memory: 5808.88 MB used, 32720.52 MB total
+[2015.05.05-11.25.40:399][174]LogMemory: Virtual Memory: 990.59 MB used, 8388608.00 MB total
+[2015.05.05-11.25.40:399][174]LogMemory: 
+[2015.05.05-11.25.40:399][174]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.40:407][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007621s)
+[2015.05.05-11.25.40:408][174]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2015.05.05-11.25.40:408][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008785s)
+[2015.05.05-11.25.40:409][174]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.40:410][174]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.40:423][174]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.40
+[2015.05.05-11.25.40:424][174]LogWorld: Bringing up level for play took: 0.012697
+[2015.05.05-11.25.45:068][581]Cmd: RestartLevel
+[2015.05.05-11.25.45:080][582]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.45:081][582]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.45:095][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A0F2340
+[2015.05.05-11.25.45:099][582]Cmd: MEM
+[2015.05.05-11.25.45:111][582]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.45:112][582]LogMemory: Process Physical Memory: 547.83 MB used, 550.69 MB peak
+[2015.05.05-11.25.45:112][582]LogMemory: Process Virtual Memory: 455.00 MB used, 455.00 MB peak
+[2015.05.05-11.25.45:112][582]LogMemory: Physical Memory: 5808.32 MB used, 32720.52 MB total
+[2015.05.05-11.25.45:113][582]LogMemory: Virtual Memory: 994.66 MB used, 8388608.00 MB total
+[2015.05.05-11.25.45:113][582]LogMemory: 
+[2015.05.05-11.25.45:113][582]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.45:121][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007537s)
+[2015.05.05-11.25.45:122][582]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2015.05.05-11.25.45:122][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008714s)
+[2015.05.05-11.25.45:122][582]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.45:124][582]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.45:136][582]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.45
+[2015.05.05-11.25.45:138][582]LogWorld: Bringing up level for play took: 0.012639
+[2015.05.05-11.25.49:779][985]Cmd: RestartLevel
+[2015.05.05-11.25.49:791][986]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.49:792][986]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.49:806][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D2AEAC0
+[2015.05.05-11.25.49:809][986]Cmd: MEM
+[2015.05.05-11.25.49:822][986]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.49:822][986]LogMemory: Process Physical Memory: 546.95 MB used, 550.69 MB peak
+[2015.05.05-11.25.49:823][986]LogMemory: Process Virtual Memory: 450.89 MB used, 455.03 MB peak
+[2015.05.05-11.25.49:823][986]LogMemory: Physical Memory: 5809.36 MB used, 32720.52 MB total
+[2015.05.05-11.25.49:823][986]LogMemory: Virtual Memory: 985.78 MB used, 8388608.00 MB total
+[2015.05.05-11.25.49:823][986]LogMemory: 
+[2015.05.05-11.25.49:824][986]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.49:831][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007543s)
+[2015.05.05-11.25.49:832][986]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2015.05.05-11.25.49:832][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008678s)
+[2015.05.05-11.25.49:833][986]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.49:835][986]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.49:847][986]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.49
+[2015.05.05-11.25.49:848][986]LogWorld: Bringing up level for play took: 0.012704
+[2015.05.05-11.25.54:494][388]Cmd: RestartLevel
+[2015.05.05-11.25.54:506][389]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.54:507][389]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.54:521][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A0F2B60
+[2015.05.05-11.25.54:524][389]Cmd: MEM
+[2015.05.05-11.25.54:537][389]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.54:538][389]LogMemory: Process Physical Memory: 546.98 MB used, 550.69 MB peak
+[2015.05.05-11.25.54:538][389]LogMemory: Process Virtual Memory: 450.92 MB used, 455.03 MB peak
+[2015.05.05-11.25.54:538][389]LogMemory: Physical Memory: 5807.85 MB used, 32720.52 MB total
+[2015.05.05-11.25.54:538][389]LogMemory: Virtual Memory: 990.59 MB used, 8388608.00 MB total
+[2015.05.05-11.25.54:538][389]LogMemory: 
+[2015.05.05-11.25.54:539][389]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.54:546][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007544s)
+[2015.05.05-11.25.54:547][389]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2015.05.05-11.25.54:548][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008702s)
+[2015.05.05-11.25.54:548][389]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.54:550][389]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.54:562][389]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.54
+[2015.05.05-11.25.54:563][389]LogWorld: Bringing up level for play took: 0.012540
+[2015.05.05-11.25.59:208][784]Cmd: RestartLevel
+[2015.05.05-11.25.59:220][785]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.25.59:220][785]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.25.59:235][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A0F16C0
+[2015.05.05-11.25.59:238][785]Cmd: MEM
+[2015.05.05-11.25.59:250][785]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.25.59:251][785]LogMemory: Process Physical Memory: 548.88 MB used, 550.69 MB peak
+[2015.05.05-11.25.59:251][785]LogMemory: Process Virtual Memory: 452.03 MB used, 455.03 MB peak
+[2015.05.05-11.25.59:251][785]LogMemory: Physical Memory: 5798.65 MB used, 32720.52 MB total
+[2015.05.05-11.25.59:252][785]LogMemory: Virtual Memory: 991.69 MB used, 8388608.00 MB total
+[2015.05.05-11.25.59:252][785]LogMemory: 
+[2015.05.05-11.25.59:252][785]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.25.59:260][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007531s)
+[2015.05.05-11.25.59:261][785]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2015.05.05-11.25.59:261][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008655s)
+[2015.05.05-11.25.59:261][785]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.25.59:263][785]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.25.59:275][785]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.25.59
+[2015.05.05-11.25.59:276][785]LogWorld: Bringing up level for play took: 0.012400
+[2015.05.05-11.26.03:918][182]Cmd: RestartLevel
+[2015.05.05-11.26.03:930][183]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.26.03:930][183]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.26.03:945][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D28B7E0
+[2015.05.05-11.26.03:948][183]Cmd: MEM
+[2015.05.05-11.26.03:961][183]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.26.03:962][183]LogMemory: Process Physical Memory: 549.61 MB used, 550.69 MB peak
+[2015.05.05-11.26.03:962][183]LogMemory: Process Virtual Memory: 456.11 MB used, 456.11 MB peak
+[2015.05.05-11.26.03:962][183]LogMemory: Physical Memory: 5799.09 MB used, 32720.52 MB total
+[2015.05.05-11.26.03:962][183]LogMemory: Virtual Memory: 995.75 MB used, 8388608.00 MB total
+[2015.05.05-11.26.03:962][183]LogMemory: 
+[2015.05.05-11.26.03:963][183]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.26.03:971][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007624s)
+[2015.05.05-11.26.03:971][183]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2015.05.05-11.26.03:972][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008789s)
+[2015.05.05-11.26.03:972][183]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.26.03:974][183]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.26.03:986][183]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.26.03
+[2015.05.05-11.26.03:987][183]LogWorld: Bringing up level for play took: 0.012569
+[2015.05.05-11.26.09:129][622]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:160][624]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:179][625]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:259][626]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:281][627]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:299][628]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:341][631]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:372][633]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:402][635]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:420][636]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:439][637]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:457][638]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:475][639]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:493][640]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:512][641]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:530][642]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:548][643]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:566][644]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:619][648]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:637][649]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:655][650]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:673][651]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:691][652]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:709][653]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:728][654]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:746][655]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:764][656]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:782][657]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:800][658]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:818][659]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.09:836][660]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:187][690]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:205][691]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:223][692]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:242][693]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:283][696]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:371][703]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:436][708]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:478][711]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:532][715]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:596][720]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:626][722]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:668][725]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:698][727]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:728][729]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:758][731]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:811][735]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:899][742]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:953][746]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.10:983][748]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.11:036][752]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.11:077][755]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.22:787][574]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.22:820][576]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.22:851][578]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.22:894][581]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.22:936][584]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.22:991][588]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:020][590]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:050][592]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:069][593]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:102][595]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:143][598]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:187][601]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:217][603]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:260][606]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:278][607]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:296][608]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:314][609]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:332][610]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:351][611]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:369][612]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:387][613]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:406][614]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:424][615]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:442][616]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:460][617]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:478][618]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:508][620]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:527][621]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:545][622]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:563][623]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:581][624]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:599][625]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:617][626]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:635][627]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:653][628]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:671][629]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:690][630]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:708][631]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:726][632]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:744][633]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:762][634]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:780][635]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:798][636]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:817][637]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:835][638]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:853][639]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:873][640]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:891][641]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:921][643]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:939][644]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:957][645]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.23:988][647]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.24:018][649]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.24:048][651]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.24:078][653]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.24:201][663]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:077][875]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:096][876]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:118][877]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:136][878]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:154][879]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:175][880]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:243][885]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:272][887]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:291][888]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:309][889]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:339][891]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:357][892]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:376][893]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:394][894]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:412][895]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:430][896]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:448][897]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:466][898]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:484][899]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:502][900]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:519][901]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:537][902]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:555][903]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:573][904]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:603][906]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:667][911]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:698][913]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:716][914]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:734][915]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:764][917]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:783][918]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:801][919]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:819][920]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:837][921]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:855][922]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:873][923]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:891][924]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:909][925]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:927][926]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:945][927]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:963][928]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:981][929]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.27:999][930]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:018][931]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:035][932]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:065][934]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:095][936]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:137][939]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:167][941]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:244][947]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.28:285][950]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:029][152]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:142][161]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:196][165]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:285][172]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:374][179]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:439][184]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:540][192]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:605][197]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:647][200]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:712][205]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:779][210]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:833][214]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:862][216]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:892][218]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:923][220]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:941][221]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:973][223]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.31:992][224]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:022][226]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:040][227]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:061][228]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:090][230]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:120][232]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:174][236]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:412][256]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:466][260]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:508][263]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:759][284]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.32:885][294]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.33:321][331]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.34:981][474]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.26.36:093][570]PIE:Warning: Warning Mobility of Gameplay_Screen_C_1045 : RightEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.37:458][964]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.37:506][967]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.37:526][968]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.37:550][969]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.38:333][ 30]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.38:354][ 31]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.38:376][ 32]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.38:901][ 73]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.38:934][ 75]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.38:954][ 76]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.39:523][120]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.46:862][693]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.47:024][705]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.47:540][745]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.48:091][788]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.53:767][216]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.28.54:031][234]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4088 : TopEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.29.50:662][200]LogUnrealMath: Expression Error : No value recognized
+[2015.05.05-11.29.50:662][200]LogUnrealMath: Expression Error : Error in expression
+[2015.05.05-11.29.50:662][200]LogUnrealMath: Expression Error : No value recognized
+[2015.05.05-11.29.50:663][200]LogUnrealMath: Expression Error : Error in expression
+[2015.05.05-11.30.34:321][ 74]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4709 : BottomEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.30.34:474][ 84]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4709 : BottomEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.30.35:646][165]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4709 : BottomEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.30.36:907][252]PIE:Warning: Warning Mobility of Gameplay_Screen_C_4709 : BottomEdge has to be 'Movable' if you'd like to move. 
+[2015.05.05-11.31.09:791][345]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D2AD260
+[2015.05.05-11.31.11:429][446]BlueprintLog: New page: Compile Gameplay_Screen
+[2015.05.05-11.31.11:512][446]BlueprintEditorCompileResults: Info [0423.20] Compile of Gameplay_Screen successful! [in 82 ms]
+[2015.05.05-11.31.23:523][540]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-11.31.23:877][579]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2015.05.05-11.31.24:137][605]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2015.05.05-11.31.52:617][819]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.05-11.31.52:617][819]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 7:31:52 am)
+[2015.05.05-11.31.52:626][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007654s)
+[2015.05.05-11.31.52:627][819]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2015.05.05-11.31.52:627][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008916s)
+[2015.05.05-11.31.52:657][819]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.31.52:659][819]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.31.52:671][819]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.31.52
+[2015.05.05-11.31.52:672][819]LogWorld: Bringing up level for play took: 0.012704
+[2015.05.05-11.31.52:675][819]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.756
+[2015.05.05-11.31.57:391][219]Cmd: RestartLevel
+[2015.05.05-11.31.57:402][220]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.31.57:403][220]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.31.57:419][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E2E2FC0
+[2015.05.05-11.31.57:420][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A2CE2A0
+[2015.05.05-11.31.57:423][220]Cmd: MEM
+[2015.05.05-11.31.57:436][220]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.31.57:436][220]LogMemory: Process Physical Memory: 635.65 MB used, 635.66 MB peak
+[2015.05.05-11.31.57:437][220]LogMemory: Process Virtual Memory: 536.09 MB used, 536.20 MB peak
+[2015.05.05-11.31.57:437][220]LogMemory: Physical Memory: 5892.71 MB used, 32720.52 MB total
+[2015.05.05-11.31.57:437][220]LogMemory: Virtual Memory: 1057.52 MB used, 8388608.00 MB total
+[2015.05.05-11.31.57:437][220]LogMemory: 
+[2015.05.05-11.31.57:438][220]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.31.57:445][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007608s)
+[2015.05.05-11.31.57:446][220]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2015.05.05-11.31.57:447][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008776s)
+[2015.05.05-11.31.57:447][220]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.31.57:449][220]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.31.57:461][220]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.31.57
+[2015.05.05-11.31.57:462][220]LogWorld: Bringing up level for play took: 0.012669
+[2015.05.05-11.32.02:109][646]Cmd: RestartLevel
+[2015.05.05-11.32.02:120][647]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.32.02:120][647]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.32.02:135][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237CF9C0
+[2015.05.05-11.32.02:138][647]Cmd: MEM
+[2015.05.05-11.32.02:150][647]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.32.02:151][647]LogMemory: Process Physical Memory: 635.74 MB used, 635.75 MB peak
+[2015.05.05-11.32.02:151][647]LogMemory: Process Virtual Memory: 536.09 MB used, 536.20 MB peak
+[2015.05.05-11.32.02:151][647]LogMemory: Physical Memory: 5894.71 MB used, 32720.52 MB total
+[2015.05.05-11.32.02:152][647]LogMemory: Virtual Memory: 1057.52 MB used, 8388608.00 MB total
+[2015.05.05-11.32.02:152][647]LogMemory: 
+[2015.05.05-11.32.02:152][647]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.32.02:160][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007551s)
+[2015.05.05-11.32.02:161][647]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2015.05.05-11.32.02:161][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008686s)
+[2015.05.05-11.32.02:161][647]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.32.02:163][647]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.32.02:175][647]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.32.02
+[2015.05.05-11.32.02:176][647]LogWorld: Bringing up level for play took: 0.012510
+[2015.05.05-11.32.08:762][247]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.08:764][247]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.14:088][729]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.14:089][729]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.26:565][861]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.26:565][861]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.32:833][435]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.32:834][435]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.35:160][644]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.35:161][644]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.37:290][834]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.37:291][834]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.39:205][  5]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.39:206][  5]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.42:469][299]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_EndLevel.BP_EndLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.32.42:470][299]LogActorComponent: ReregisterComponent: (/Game/EndlessRunner/Blueprints/BP_MidLevel.BP_MidLevel_C:PaperSpriteComponent_1) Not currently registered. Aborting.
+[2015.05.05-11.33.07:033][558]LogUnrealMath: Expression Error : No value recognized
+[2015.05.05-11.33.07:034][558]LogUnrealMath: Expression Error : Error in expression
+[2015.05.05-11.33.07:034][558]LogUnrealMath: Expression Error : No value recognized
+[2015.05.05-11.33.07:034][558]LogUnrealMath: Expression Error : Error in expression
+[2015.05.05-11.33.47:150][300]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C4DF420
+[2015.05.05-11.34.26:918][262]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.34.56:437][575]BlueprintLog: New page: Compile BP_StartLevel
+[2015.05.05-11.34.56:553][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.05-11.34.56:663][575]BlueprintEditorCompileResults: Info [0648.34] Compile of BP_StartLevel successful! [in 224 ms]
+[2015.05.05-11.34.56:687][575]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.34.58:388][686]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.05-11.34.58:392][686]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.05-11.34.58:498][686]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.05-11.34.58:696][686]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.05-11.34.58:735][686]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.05-11.34.58:785][686]LogPlayLevel: PIE:  Blueprint regeneration took 397 ms (4 blueprints)
+[2015.05.05-11.34.58:786][686]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 7:34:58 am)
+[2015.05.05-11.34.58:794][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007571s)
+[2015.05.05-11.34.58:795][686]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2015.05.05-11.34.58:795][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008751s)
+[2015.05.05-11.34.58:829][686]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.34.58:831][686]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.34.58:839][686]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.34.58
+[2015.05.05-11.34.58:840][686]LogWorld: Bringing up level for play took: 0.008790
+[2015.05.05-11.34.58:843][686]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.915
+[2015.05.05-11.35.03:547][ 10]Cmd: RestartLevel
+[2015.05.05-11.35.03:559][ 11]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.35.03:560][ 11]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.35.03:577][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E96AF20
+[2015.05.05-11.35.03:577][ 11]Cmd: MEM
+[2015.05.05-11.35.03:590][ 11]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.35.03:591][ 11]LogMemory: Process Physical Memory: 659.10 MB used, 659.11 MB peak
+[2015.05.05-11.35.03:591][ 11]LogMemory: Process Virtual Memory: 560.27 MB used, 560.27 MB peak
+[2015.05.05-11.35.03:591][ 11]LogMemory: Physical Memory: 5923.55 MB used, 32720.52 MB total
+[2015.05.05-11.35.03:591][ 11]LogMemory: Virtual Memory: 1088.47 MB used, 8388608.00 MB total
+[2015.05.05-11.35.03:592][ 11]LogMemory: 
+[2015.05.05-11.35.03:592][ 11]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.35.03:600][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007625s)
+[2015.05.05-11.35.03:601][ 11]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2015.05.05-11.35.03:601][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008794s)
+[2015.05.05-11.35.03:601][ 11]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.35.03:603][ 11]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.35.03:615][ 11]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.35.03
+[2015.05.05-11.35.03:616][ 11]LogWorld: Bringing up level for play took: 0.012602
+[2015.05.05-11.35.08:735][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D28BBA0
+[2015.05.05-11.35.18:658][196]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.05.05-11.35.20:892][335]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-11.35.22:680][469]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-11.35.35:890][370]BlueprintLog: New page: Compile BP_StartLevel
+[2015.05.05-11.35.36:011][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.05-11.35.36:131][370]BlueprintEditorCompileResults: Info [0687.81] Compile of BP_StartLevel successful! [in 239 ms]
+[2015.05.05-11.35.36:161][370]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.35.38:194][461]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.05-11.35.38:198][461]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.05-11.35.38:333][461]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.05-11.35.38:555][461]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.05-11.35.38:604][461]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.05-11.35.38:662][461]LogPlayLevel: PIE:  Blueprint regeneration took 468 ms (4 blueprints)
+[2015.05.05-11.35.38:663][461]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 7:35:38 am)
+[2015.05.05-11.35.38:674][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010712s)
+[2015.05.05-11.35.38:679][461]LogPlayLevel: PIE: World Init took: (0.003915s)
+[2015.05.05-11.35.38:679][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.015668s)
+[2015.05.05-11.35.38:716][461]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.35.38:718][461]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.35.38:734][461]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.35.38
+[2015.05.05-11.35.38:736][461]LogWorld: Bringing up level for play took: 0.016810
+[2015.05.05-11.35.38:739][461]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.808
+[2015.05.05-11.35.44:928][736]Cmd: RestartLevel
+[2015.05.05-11.35.44:943][737]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.35.44:943][737]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.35.44:962][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BC78900
+[2015.05.05-11.35.44:962][737]Cmd: MEM
+[2015.05.05-11.35.44:975][737]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.35.44:975][737]LogMemory: Process Physical Memory: 663.87 MB used, 665.90 MB peak
+[2015.05.05-11.35.44:976][737]LogMemory: Process Virtual Memory: 566.43 MB used, 566.43 MB peak
+[2015.05.05-11.35.44:976][737]LogMemory: Physical Memory: 5926.86 MB used, 32720.52 MB total
+[2015.05.05-11.35.44:976][737]LogMemory: Virtual Memory: 1097.41 MB used, 8388608.00 MB total
+[2015.05.05-11.35.44:976][737]LogMemory: 
+[2015.05.05-11.35.44:977][737]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.35.44:987][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010458s)
+[2015.05.05-11.35.44:988][737]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2015.05.05-11.35.44:989][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.011655s)
+[2015.05.05-11.35.44:989][737]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.35.44:991][737]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.35.45:006][737]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.35.45
+[2015.05.05-11.35.45:008][737]LogWorld: Bringing up level for play took: 0.016698
+[2015.05.05-11.35.47:038][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C013EC0
+[2015.05.05-11.36.49:150][271]BlueprintLog: New page: Compile BP_StartLevel
+[2015.05.05-11.36.49:470][271]BlueprintEditorCompileResults: Info [0761.14] Compile of BP_StartLevel successful! [in 319 ms]
+[2015.05.05-11.36.49:523][271]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.36.50:004][299]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.05-11.36.50:008][299]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.05-11.36.50:232][299]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.05-11.36.50:529][299]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.05-11.36.50:579][299]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.05-11.36.50:641][299]LogPlayLevel: PIE:  Blueprint regeneration took 636 ms (4 blueprints)
+[2015.05.05-11.36.50:642][299]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 7:36:50 am)
+[2015.05.05-11.36.50:660][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018106s)
+[2015.05.05-11.36.50:661][299]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2015.05.05-11.36.50:662][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.019403s)
+[2015.05.05-11.36.50:693][299]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.36.50:695][299]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.36.50:707][299]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.36.50
+[2015.05.05-11.36.50:709][299]LogWorld: Bringing up level for play took: 0.013625
+[2015.05.05-11.36.50:712][299]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.776
+[2015.05.05-11.36.55:792][522]Cmd: RestartLevel
+[2015.05.05-11.36.55:808][523]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.36.55:809][523]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.36.55:829][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E9D4720
+[2015.05.05-11.36.55:829][523]Cmd: MEM
+[2015.05.05-11.36.55:842][523]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.36.55:843][523]LogMemory: Process Physical Memory: 685.50 MB used, 688.82 MB peak
+[2015.05.05-11.36.55:843][523]LogMemory: Process Virtual Memory: 584.33 MB used, 589.43 MB peak
+[2015.05.05-11.36.55:843][523]LogMemory: Physical Memory: 5947.68 MB used, 32720.52 MB total
+[2015.05.05-11.36.55:843][523]LogMemory: Virtual Memory: 1115.14 MB used, 8388608.00 MB total
+[2015.05.05-11.36.55:844][523]LogMemory: 
+[2015.05.05-11.36.55:844][523]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.36.55:862][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018230s)
+[2015.05.05-11.36.55:863][523]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2015.05.05-11.36.55:864][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.019485s)
+[2015.05.05-11.36.55:864][523]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.36.55:866][523]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.36.55:892][523]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.36.55
+[2015.05.05-11.36.55:895][523]LogWorld: Bringing up level for play took: 0.027972
+[2015.05.05-11.37.20:767][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BD977E0
+[2015.05.05-11.37.20:769][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BF58AE0
+[2015.05.05-11.38.42:718][ 42]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.38.48:287][444]BlueprintLog: New page: Compile BP_StartLevel
+[2015.05.05-11.38.48:543][444]BlueprintEditorCompileResults: Info [0880.21] Compile of BP_StartLevel successful! [in 255 ms]
+[2015.05.05-11.38.48:567][444]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.38.50:713][657]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (B3_Sprite_0)
+[2015.05.05-11.38.53:250][955]LogEditorViewport: Clicking on Actor (LMB): BP_Coin2_C (BP_Coin2)
+[2015.05.05-11.39.04:551][304]LogEditorViewport: Clicking on Actor (LMB): BP_Coin_C (BP_Coin550)
+[2015.05.05-11.39.10:125][969]LogEditorViewport: Clicking on Actor (LMB): BP_Coin2_C (BP_Coin2)
+[2015.05.05-11.39.10:240][979]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2015.05.05-11.40.20:060][158]BlueprintLog: New page: Compile BP_Coin2
+[2015.05.05-11.40.20:139][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BE7A160
+[2015.05.05-11.40.20:166][158]BlueprintEditorCompileResults: Info [0971.82] Compile of BP_Coin2 successful! [in 104 ms]
+[2015.05.05-11.40.21:710][333]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.05-11.40.21:714][333]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.05-11.40.21:781][333]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.05-11.40.21:964][333]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.05-11.40.22:003][333]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.05-11.40.22:054][333]LogPlayLevel: PIE:  Blueprint regeneration took 344 ms (4 blueprints)
+[2015.05.05-11.40.22:055][333]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 7:40:22 am)
+[2015.05.05-11.40.22:064][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008291s)
+[2015.05.05-11.40.22:065][333]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2015.05.05-11.40.22:065][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009503s)
+[2015.05.05-11.40.22:097][333]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.40.22:099][333]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.40.22:110][333]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.40.22
+[2015.05.05-11.40.22:111][333]LogWorld: Bringing up level for play took: 0.011546
+[2015.05.05-11.40.22:114][333]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.167
+[2015.05.05-11.40.26:429][849]Cmd: RestartLevel
+[2015.05.05-11.40.26:437][850]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.05-11.40.26:437][850]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.05-11.40.26:455][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BF5ACA0
+[2015.05.05-11.40.26:456][850]Cmd: MEM
+[2015.05.05-11.40.26:468][850]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-11.40.26:469][850]LogMemory: Process Physical Memory: 715.93 MB used, 717.89 MB peak
+[2015.05.05-11.40.26:469][850]LogMemory: Process Virtual Memory: 614.35 MB used, 617.45 MB peak
+[2015.05.05-11.40.26:469][850]LogMemory: Physical Memory: 5954.06 MB used, 32720.52 MB total
+[2015.05.05-11.40.26:469][850]LogMemory: Virtual Memory: 1139.22 MB used, 8388608.00 MB total
+[2015.05.05-11.40.26:470][850]LogMemory: 
+[2015.05.05-11.40.26:470][850]Allocator Stats for TBB: (not implemented)
+[2015.05.05-11.40.26:479][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008311s)
+[2015.05.05-11.40.26:479][850]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2015.05.05-11.40.26:480][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009458s)
+[2015.05.05-11.40.26:480][850]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-11.40.26:482][850]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-11.40.26:494][850]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.05-21.40.26
+[2015.05.05-11.40.26:495][850]LogWorld: Bringing up level for play took: 0.012656
+[2015.05.05-11.40.30:220][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E6F5B20
+[2015.05.05-11.43.34:441][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A0F1D00
+[2015.05.05-11.43.34:682][ 21]LogSavePackage: Save=138.329254ms
+[2015.05.05-11.43.34:683][ 21]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/2DSideScrollerExampleMap_Auto18B227E5449795356DF9577A55E8F387E.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2015.05.05-11.43.34:705][ 21]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap' took 0.277
+[2015.05.05-11.43.34:706][ 21]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
+[2015.05.05-11.43.34:740][ 21]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/BP_StartLevel] ([1] browsable assets)...
+[2015.05.05-11.43.34:740][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/BP_StartLevel]
+[2015.05.05-11.43.34:878][ 21]LogSavePackage: Save=119.226303ms
+[2015.05.05-11.43.34:879][ 21]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/BP_StartLevel_Auto1603659374166AE0E9150D0BEEBFD04A3.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/BP_StartLevel_Auto1.uasset'
+[2015.05.05-11.43.34:918][ 21]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/BP_EndLevel] ([1] browsable assets)...
+[2015.05.05-11.43.34:918][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/BP_EndLevel]
+[2015.05.05-11.43.35:024][ 21]LogSavePackage: Save=80.429268ms
+[2015.05.05-11.43.35:025][ 21]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/BP_EndLevel_Auto1414E9FD946BF541602E191B46605A924.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/BP_EndLevel_Auto1.uasset'
+[2015.05.05-11.43.35:060][ 21]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/BP_MidLevel] ([1] browsable assets)...
+[2015.05.05-11.43.35:060][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/BP_MidLevel]
+[2015.05.05-11.43.35:156][ 21]LogSavePackage: Save=84.110352ms
+[2015.05.05-11.43.35:157][ 21]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/BP_MidLevel_Auto1978250C9468E948CF1ACE3BA811A7191.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/BP_MidLevel_Auto1.uasset'
+[2015.05.05-11.43.35:196][ 21]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/Gameplay_Screen] ([1] browsable assets)...
+[2015.05.05-11.43.35:196][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/Gameplay_Screen]
+[2015.05.05-11.43.35:379][ 21]LogSavePackage: Save=167.303452ms
+[2015.05.05-11.43.35:380][ 21]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Gameplay_Screen_Auto1E53B11624BA49F327DB59B90E1FBCC16.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/Gameplay_Screen_Auto1.uasset'
+[2015.05.05-11.43.35:417][ 21]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/BP_Coin2] ([1] browsable assets)...
+[2015.05.05-11.43.35:417][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/BP_Coin2]
+[2015.05.05-11.43.35:539][ 21]LogSavePackage: Save=97.637848ms
+[2015.05.05-11.43.35:540][ 21]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/BP_Coin2_Auto1C8EB385B453ED54E96A0AD8FDA4953DA.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/BP_Coin2_Auto1.uasset'
+[2015.05.05-11.43.35:543][ 21]LogFileHelpers: Auto-saving content packages took 0.838
+[2015.05.05-11.48.31:724][860]LogEditorViewport: Clicking on Actor (LMB): BP_Coin_C (BP_Coin553)
+[2015.05.05-11.48.38:987][726]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.05.05-11.48.41:449][990]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-11.48.41:553][996]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2015.05.05-11.48.43:366][210]LogEditorViewport: Clicking on Actor (LMB): BP_Coin_C (BP_Coin553)
+[2015.05.05-11.48.44:382][329]LogEditorViewport: Clicking on Actor (LMB): BP_Coin_C (BP_Coin558)
+[2015.05.05-11.48.48:105][772]LogEditorViewport: Clicking on Actor (LMB): BP_Coin2_C (BP_Coin2)
+[2015.05.05-11.48.50:441][ 48]LogEditorViewport: Clicking on Actor (LMB): BP_Coin_C (BP_Coin557)
+[2015.05.05-11.48.53:593][421]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.53:614][422]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.53:636][423]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.53:657][424]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.53:679][425]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.53:950][456]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.53:972][457]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.53:994][458]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:015][459]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:037][460]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:058][461]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:171][473]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:193][474]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:214][475]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:236][476]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:257][477]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.54:278][478]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:750][653]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:771][654]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:793][655]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:814][656]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:836][657]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:857][658]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:879][659]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:900][660]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:922][661]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:943][662]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:965][663]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.55:986][664]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:008][665]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:029][666]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:051][667]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:097][671]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:219][684]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:240][685]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:262][686]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:283][687]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:305][688]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:326][689]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:348][690]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:369][691]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:391][692]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:413][693]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:434][694]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:456][695]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:477][696]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:499][697]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:520][698]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:542][699]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:563][700]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:585][701]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:607][702]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:628][703]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:650][704]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:671][705]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:693][706]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:715][707]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:820][718]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:874][723]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:896][724]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:917][725]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:939][726]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.56:960][727]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:048][736]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:169][749]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:191][750]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:213][751]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:234][752]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:256][753]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:278][754]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:299][755]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:321][756]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:342][757]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:364][758]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:386][759]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:415][761]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:678][791]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:700][792]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:722][793]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:744][794]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:765][795]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:787][796]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:809][797]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:831][798]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:852][799]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:874][800]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:896][801]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:918][802]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:939][803]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:961][804]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.57:983][805]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:004][806]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:026][807]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:048][808]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:070][809]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:092][810]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:113][811]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:135][812]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:157][813]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:179][814]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:200][815]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:222][816]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.48.58:515][849]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-11.49.00:036][ 27]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.05-11.49.01:595][ 28]Cmd: QUIT_EDITOR
+[2015.05.05-11.49.01:779][ 28]LogExit: Preparing to exit.
+[2015.05.05-11.49.02:109][ 28]LogExit: Editor shut down
+[2015.05.05-11.49.02:110][ 28]LogExit: Transaction tracking system shut down
+[2015.05.05-11.49.02:114][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CAF0CC0
+[2015.05.05-11.49.02:115][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019DEF100
+[2015.05.05-11.49.02:116][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A1147C0
+[2015.05.05-11.49.02:116][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C330220
+[2015.05.05-11.49.02:168][ 28]LogExit: Object subsystem successfully closed.
+[2015.05.05-11.49.02:211][ 28]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.05.05-11.49.02:212][ 28]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.05.05-11.49.02:212][ 28]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.05.05-11.49.02:212][ 28]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.05.05-11.49.02:212][ 28]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.05.05-11.49.02:213][ 28]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.05.05-11.49.02:213][ 28]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.05.05-11.49.02:213][ 28]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.05.05-11.49.02:214][ 28]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.05.05-11.49.02:214][ 28]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.05.05-11.49.02:214][ 28]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.05.05-11.49.02:214][ 28]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.05.05-11.49.02:214][ 28]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.05.05-11.49.02:215][ 28]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.05.05-11.49.02:215][ 28]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.05.05-11.49.02:215][ 28]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.05.05-11.49.02:215][ 28]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.05.05-11.49.02:215][ 28]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.05.05-11.49.02:216][ 28]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.05.05-11.49.02:216][ 28]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.05.05-11.49.02:216][ 28]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.05.05-11.49.02:216][ 28]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.05.05-11.49.02:217][ 28]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.05.05-11.49.02:217][ 28]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.05.05-11.49.02:217][ 28]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.05.05-11.49.02:217][ 28]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.05.05-11.49.02:217][ 28]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.05.05-11.49.02:218][ 28]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.05.05-11.49.02:218][ 28]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.05.05-11.49.02:218][ 28]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.05.05-11.49.02:218][ 28]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.05.05-11.49.02:219][ 28]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.05.05-11.49.02:284][ 28]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.05.05-11.49.02:284][ 28]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.05.05-11.49.02:284][ 28]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.05.05-11.49.02:285][ 28]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.05.05-11.49.02:285][ 28]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.05.05-11.49.02:285][ 28]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.05.05-11.49.02:285][ 28]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.05.05-11.49.02:286][ 28]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.05.05-11.49.02:286][ 28]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.05.05-11.49.02:286][ 28]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.05.05-11.49.02:286][ 28]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.05.05-11.49.02:287][ 28]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.05.05-11.49.02:287][ 28]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.05.05-11.49.02:287][ 28]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.05.05-11.49.02:287][ 28]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.05.05-11.49.02:287][ 28]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.05.05-11.49.02:288][ 28]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.05.05-11.49.02:288][ 28]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.05.05-11.49.02:288][ 28]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.05.05-11.49.02:362][ 28]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.05.05-11.49.02:362][ 28]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.05.05-11.49.02:362][ 28]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.05.05-11.49.02:363][ 28]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.05.05-11.49.02:363][ 28]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.05.05-11.49.02:364][ 28]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.05.05-11.49.02:364][ 28]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.05.05-11.49.02:364][ 28]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.05.05-11.49.02:364][ 28]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.05.05-11.49.02:364][ 28]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.05.05-11.49.02:365][ 28]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.05.05-11.49.02:365][ 28]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.05.05-11.49.02:365][ 28]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.05.05-11.49.02:365][ 28]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.05.05-11.49.02:366][ 28]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.05.05-11.49.02:366][ 28]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.05.05-11.49.02:366][ 28]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.05.05-11.49.02:366][ 28]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.05.05-11.49.02:367][ 28]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.05.05-11.49.02:367][ 28]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.05.05-11.49.02:367][ 28]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.05.05-11.49.02:375][ 28]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.05.05-11.49.02:375][ 28]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.05.05-11.49.02:376][ 28]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.05.05-11.49.02:376][ 28]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.05.05-11.49.02:376][ 28]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.05.05-11.49.02:376][ 28]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.05.05-11.49.02:376][ 28]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.05.05-11.49.02:377][ 28]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.05.05-11.49.02:377][ 28]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.05.05-11.49.02:377][ 28]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.05.05-11.49.02:377][ 28]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.05.05-11.49.02:377][ 28]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.05.05-11.49.02:378][ 28]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.05.05-11.49.02:378][ 28]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.05.05-11.49.02:378][ 28]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.05.05-11.49.02:379][ 28]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.05.05-11.49.02:379][ 28]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.05.05-11.49.02:379][ 28]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.05.05-11.49.02:379][ 28]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.05.05-11.49.02:379][ 28]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.05.05-11.49.02:380][ 28]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.05.05-11.49.02:380][ 28]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.05.05-11.49.02:380][ 28]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.05.05-11.49.02:380][ 28]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.05.05-11.49.02:381][ 28]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.05.05-11.49.02:381][ 28]LogModuleManager: Shutting down and abandoning module SpaceRace (81)
+[2015.05.05-11.49.02:381][ 28]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.05-11.49.02:382][ 28]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.05-11.49.02:482][ 28]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.05-11.49.02:482][ 28]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.05-11.49.02:484][ 28]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.05-11.49.02:484][ 28]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.05-11.49.02:485][ 28]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.05-11.49.02:485][ 28]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.05-11.49.02:486][ 28]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.05-11.49.02:486][ 28]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.05-11.49.02:486][ 28]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.05-11.49.02:486][ 28]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.05-11.49.02:487][ 28]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.05-11.49.02:487][ 28]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.05-11.49.02:487][ 28]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.05-11.49.02:487][ 28]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.05-11.49.02:488][ 28]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.05-11.49.02:488][ 28]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.05-11.49.02:488][ 28]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.05-11.49.02:491][ 28]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.05-11.49.02:491][ 28]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.05-11.49.02:491][ 28]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.05-11.49.02:491][ 28]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.05-11.49.02:492][ 28]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.05-11.49.02:492][ 28]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.05-11.49.02:492][ 28]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.05-11.49.02:492][ 28]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.05-11.49.02:492][ 28]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.05-11.49.02:493][ 28]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.05-11.49.02:502][ 28]LogDerivedDataCache: Shutdown
+[2015.05.05-11.49.02:502][ 28]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.05-11.49.02:502][ 28]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.05-11.49.02:503][ 28]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.05-11.49.02:503][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.05-11.49.02:503][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.05-11.49.02:503][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.05-11.49.02:503][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.05-11.49.02:504][ 28]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.05-11.49.02:504][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.05-11.49.02:504][ 28]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.05-11.49.02:504][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.05-11.49.02:504][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.05-11.49.02:505][ 28]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.05-11.49.02:505][ 28]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.05-11.49.02:505][ 28]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.05-11.49.02:505][ 28]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.05-11.49.02:505][ 28]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.05-11.49.02:506][ 28]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.05-11.49.02:506][ 28]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.05-11.49.02:506][ 28]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.05-11.49.02:506][ 28]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.05-11.49.02:506][ 28]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.05-11.49.02:507][ 28]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.05-11.49.02:507][ 28]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.05-11.49.02:507][ 28]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.05-11.49.02:507][ 28]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.05-11.49.02:507][ 28]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.05-11.49.02:508][ 28]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.05-11.49.02:508][ 28]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.05-11.49.02:508][ 28]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.05-11.49.02:508][ 28]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.05-11.49.02:508][ 28]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.05-11.49.02:509][ 28]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.05-11.49.02:509][ 28]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.05-11.49.02:509][ 28]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.05-11.49.02:509][ 28]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.05-11.49.02:510][ 28]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.05-11.49.02:510][ 28]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.05-11.49.02:510][ 28]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.05-11.49.02:510][ 28]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.05-11.49.02:513][ 28]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.05-11.49.02:514][ 28]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.05-11.49.02:514][ 28]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.05-11.49.02:514][ 28]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.05-11.49.02:514][ 28]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.05-11.49.02:515][ 28]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.05-11.49.02:515][ 28]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.05-11.49.02:515][ 28]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.05-11.49.02:515][ 28]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.05-11.49.02:518][ 28]LogExit: Exiting.
+[2015.05.05-11.49.02:527][ 28]Log file closed, 05/05/15 21:49:02
