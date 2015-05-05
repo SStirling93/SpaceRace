@@ -1,0 +1,1124 @@
+﻿Log file open, 05/06/15 01:14:37
+LogInit:Display: Running engine for game: SpaceRace
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: W:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.05-15.14.37:257][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.05.05-15.14.37:331][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.05-15.14.37:361][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.05-15.14.37:370][  0]LogInit: Object subsystem initialized
+[2015.05.05-15.14.37:372][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.05-15.14.37:372][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-15.14.37:373][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.05-15.14.37:373][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-15.14.37:373][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.05-15.14.37:373][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.05-15.14.37:374][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.05-15.14.37:374][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.05-15.14.37:379][  0]LogInit: Computer: LAB-SEFS515-09
+[2015.05.05-15.14.37:379][  0]LogInit: User: n8695164
+[2015.05.05-15.14.37:379][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.05.05-15.14.37:379][  0]LogInit: High frequency timer resolution =3.222695 MHz
+[2015.05.05-15.14.37:380][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx) Virtual=8192.0GB
+[2015.05.05-15.14.37:380][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.05-15.14.37:381][  0]LogMemory: Process Physical Memory: 46.41 MB used, 46.41 MB peak
+[2015.05.05-15.14.37:381][  0]LogMemory: Process Virtual Memory: 22.80 MB used, 22.80 MB peak
+[2015.05.05-15.14.37:381][  0]LogMemory: Physical Memory: 4817.02 MB used, 32720.52 MB total
+[2015.05.05-15.14.37:381][  0]LogMemory: Virtual Memory: 274.13 MB used, 8388608.00 MB total
+[2015.05.05-15.14.37:435][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.05.05-15.14.37:435][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.05.05-15.14.37:435][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.05-15.14.37:439][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.05-15.14.37:470][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.05-15.14.37:535][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.05-15.14.37:586][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.05-15.14.37:587][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.05-15.14.37:656][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.05-15.14.39:850][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-15.14.40:405][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-15.14.40:479][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.05-15.14.40:512][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.05-15.14.40:513][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.05-15.14.40:513][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/n8695164/Desktop/SpaceRace/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.05-15.14.40:514][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.05-15.14.40:628][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.05-15.14.40:639][  0]LogDerivedDataCache: Using Local data cache path C:/Users/n8695164/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.05-15.14.40:922][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.05-15.14.40:922][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.05-15.14.41:259][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.05-15.14.41:362][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.05-15.14.42:255][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.05-15.14.42:546][  0]SourceControl: Info Source control is disabled
+[2015.05.05-15.14.42:546][  0]SourceControl: Info Source control is disabled
+[2015.05.05-15.14.42:546][  0]SourceControl: Info Source control is disabled
+[2015.05.05-15.14.42:547][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.05-15.14.42:547][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.05-15.14.42:555][  0]SourceControl: Info Source control is disabled
+[2015.05.05-15.14.42:832][  0]LogObj: 24236 objects as part of root set at end of initial load.
+[2015.05.05-15.14.42:832][  0]LogUObjectAllocator: 5138808 out of 0 bytes used by permanent object pool.
+[2015.05.05-15.14.42:921][  0]LogEngine: Initializing Engine...
+[2015.05.05-15.14.45:119][  0]LogInit: XAudio2 using 'DELL S2340T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.05-15.14.45:136][  0]LogInit: FAudioDevice initialized.
+[2015.05.05-15.14.45:193][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.05-15.14.45:211][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.05-15.14.45:216][  0]LogInit: Texture streaming: Enabled
+[2015.05.05-15.14.45:307][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.05-15.14.45:307][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.05-15.14.45:307][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.05-15.14.45:308][  0]LogAnalytics: SetUserId c8dc6e25478584d4632393afdccbfded|275130378b824b80adb050f14047e778|88cf9443-166a-43f7-9f17-b5321103ecb1
+[2015.05.05-15.14.45:308][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.05-15.14.45:329][  0]LogInit: Transaction tracking system initialized
+[2015.05.05-15.14.45:601][  0]BlueprintLog: New page: Editor Load
+[2015.05.05-15.14.45:646][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.05.05-15.14.45:647][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.05-15.14.46:224][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-15.14.46:555][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.05-15.14.46:956][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.05-15.14.46:956][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.05-15.14.46:961][  0]LogConsoleResponse:Display: 
+[2015.05.05-15.14.47:090][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.05-15.14.47:330][  0]SourceControl: Info Source control is disabled
+[2015.05.05-15.14.47:331][  0]Cmd: MAP LOAD FILE="C:/Users/n8695164/Desktop/SpaceRace/Content/EndlessRunner/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.05-15.14.47:332][  0]LightingResults: New page: Lighting Build
+[2015.05.05-15.14.47:345][  0]MapCheck: New page: Map Check
+[2015.05.05-15.14.47:345][  0]LightingResults: New page: Lighting Build
+[2015.05.05-15.14.47:352][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013632520
+[2015.05.05-15.14.48:708][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.05-15.14.48:709][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-15.14.48:710][  0]Cmd: MAP CHECKDEP
+[2015.05.05-15.14.48:710][  0]MapCheck: New page: 2DSideScrollerExampleMap - 6 May 2015 11:14:48 am
+[2015.05.05-15.14.48:843][  0]MapCheck:Warning: Warning Sprite0 PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_0.Sprite0 : Externally referenced 
+[2015.05.05-15.14.48:843][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_550.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:844][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_551.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:844][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_552.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:845][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_553.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:845][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_554.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:845][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_555.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:846][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_556.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:846][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_557.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:847][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_558.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:847][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_559.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:847][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_560.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:848][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1023.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:848][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1024.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:848][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1025.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:849][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1026.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:849][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1027.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:849][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1028.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:850][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1029.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:850][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1030.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:850][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1031.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:851][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1032.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:851][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1033.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:851][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1408.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:852][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1409.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:852][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1410.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:852][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1411.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:853][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1412.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:853][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1413.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:854][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1414.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:854][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1415.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:854][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1416.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:855][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1417.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:855][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1418.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:855][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin3_127.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:856][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin4_258.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:856][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin5_377.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:856][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin6_576.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:857][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin7_707.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:857][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin8_846.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:857][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin9_961.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:858][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin10_1092.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:858][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin11_1239.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:858][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin12_1430.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:859][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_StartLevel_416.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:859][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_EndLevel_195.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:859][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_MidLevel_263.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:860][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_0.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:860][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_1.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:860][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_2.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:861][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_3.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:861][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_4.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:861][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_5.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:862][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_6.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:862][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.SmallAsteroid_122.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:862][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.SmallAsteroid2_199.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:863][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.SmallAsteroid3_256.PaperSprite : Externally referenced 
+[2015.05.05-15.14.48:863][  0]MapCheck:Warning: Warning RightEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.RightEdge : Externally referenced 
+[2015.05.05-15.14.48:864][  0]MapCheck:Warning: Warning LeftEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.LeftEdge : Externally referenced 
+[2015.05.05-15.14.48:864][  0]MapCheck:Warning: Warning TopEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.TopEdge : Externally referenced 
+[2015.05.05-15.14.48:864][  0]MapCheck:Warning: Warning BottomEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.BottomEdge : Externally referenced 
+[2015.05.05-15.14.48:865][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A0_Sprite_2.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:865][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A1_Sprite_17.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:866][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A2_Sprite_20.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:866][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A3_Sprite_23.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:866][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A4_Sprite_26.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:867][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A5_Sprite_0.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:867][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A6_Sprite_31.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:867][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B0_Sprite_5.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:868][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B1_Sprite_34.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:868][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B2_Sprite_37.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:868][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B3_Sprite_40.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:869][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B4_Sprite_43.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:869][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B5_Sprite_46.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:870][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B6_Sprite_49.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:870][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C0_Sprite_8.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:870][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C1_Sprite_53.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:871][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C2_Sprite_56.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:871][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C3_Sprite_59.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:872][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C4_Sprite_62.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:872][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C5_Sprite_65.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:872][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C6_Sprite_68.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:873][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D0_Sprite_14.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:873][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D1_Sprite_71.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:873][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D2_Sprite_74.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:874][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D3_Sprite_77.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:874][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D4_Sprite_80.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:874][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D5_Sprite_83.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:875][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D6_Sprite_89.RenderComponent : Externally referenced 
+[2015.05.05-15.14.48:875][  0]MapCheck: Info Map check complete: 0 Error(s), 89 Warning(s), took 164.985ms to complete.
+[2015.05.05-15.14.48:889][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.558
+[2015.05.05-15.14.49:011][  0]LogCollectionManager: Loaded 0 collections in 0.001565 seconds
+[2015.05.05-15.14.49:021][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 1697 classes and 263 folders.
+[2015.05.05-15.14.49:080][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0070 seconds. Added 1 classes and 2 folders.
+[2015.05.05-15.14.49:147][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.05-15.14.49:149][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.05-15.14.49:187][  0]LogLoad: Full Startup: 13.80 seconds (BP compile: 0.44 seconds)
+[2015.05.05-15.14.49:220][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/EndlessRunner/Blueprints'
+[2015.05.05-15.14.49:401][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.05-15.14.49:750][  4]LogAssetRegistry: Asset discovery search completed in 4.1147 seconds
+[2015.05.05-15.15.04:593][739]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.15.06:787][993]LogEditorViewport: Clicking on Actor (LMB): BP_MidLevel_C (BP_MidLevel)
+[2015.05.05-15.15.14:366][754]LogRenderer:Warning: Reallocating scene render targets to support 1208x712 (Frame:2110).
+[2015.05.05-15.15.32:634][871]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.16.58:587][537]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.05-15.16.58:588][537]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 11:16:58 am)
+[2015.05.05-15.16.58:597][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008172s)
+[2015.05.05-15.16.58:598][537]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2015.05.05-15.16.58:598][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009553s)
+[2015.05.05-15.16.58:654][537]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-15.16.58:656][537]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-15.16.58:668][537]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.06-01.16.58
+[2015.05.05-15.16.58:669][537]LogWorld: Bringing up level for play took: 0.012687
+[2015.05.05-15.16.58:682][537]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.107
+[2015.05.05-15.17.17:872][553]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.05-15.17.17:892][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B547920
+[2015.05.05-15.17.17:893][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C442020
+[2015.05.05-15.17.17:894][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000251E7A60
+[2015.05.05-15.17.21:478][977]LogEditorViewport: Clicking on Actor (LMB): BP_MidLevel_C (BP_MidLevel)
+[2015.05.05-15.17.22:249][ 66]EditorErrors:Warning: Warning
+[2015.05.05-15.17.37:216][806]LogEditorViewport: Clicking on Actor (LMB): Gameplay_Screen_C (Gameplay_Screen)
+[2015.05.05-15.17.45:789][815]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.05.05-15.18.14:451][157]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.18.15:569][285]LogEditorViewport: Clicking on Actor (LMB): Gameplay_Screen_C (Gameplay_Screen)
+[2015.05.05-15.18.16:687][416]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (C4_Sprite_0)
+[2015.05.05-15.18.17:719][534]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.18.18:932][676]LogEditorViewport: Clicking on Actor (LMB): BP_MidLevel_C (BP_MidLevel)
+[2015.05.05-15.18.21:112][934]LogEditorViewport: Clicking on Actor (LMB): Gameplay_Screen_C (Gameplay_Screen)
+[2015.05.05-15.18.26:142][529]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.18.31:832][200]EditorErrors:Warning: Warning
+[2015.05.05-15.18.37:970][873]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.05.05-15.19.25:063][418]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (D6_Sprite_0)
+[2015.05.05-15.19.26:276][554]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.19.28:511][817]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:555][818]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:577][819]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:599][820]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:620][821]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:642][822]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:663][823]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:685][824]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:706][825]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:727][826]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:749][827]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:770][828]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:791][829]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:812][830]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:834][831]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:855][832]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:876][833]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.28:898][834]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:252][875]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:273][876]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:294][877]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:315][878]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:337][879]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:358][880]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:379][881]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:401][882]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:423][883]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:444][884]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:466][885]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:487][886]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:508][887]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:530][888]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:551][889]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:573][890]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:594][891]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:615][892]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:637][893]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:659][894]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:680][895]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:701][896]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:723][897]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:818][907]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:840][908]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:861][909]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:882][910]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:904][911]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:925][912]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:946][913]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:967][914]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.29:989][915]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:010][916]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:031][917]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:053][918]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:074][919]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:096][920]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:117][921]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:139][922]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:160][923]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:182][924]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:203][925]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:224][926]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:246][927]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:267][928]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:288][929]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:593][964]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:722][978]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:743][979]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:765][980]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:787][981]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:808][982]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.30:829][983]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.31:898][109]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.19.40:892][183]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.20.13:384][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.20.14:023][118]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.20.14:844][212]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.14:866][213]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.14:887][214]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.14:909][215]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.14:930][216]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.14:951][217]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.14:973][218]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.14:994][219]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:015][220]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:037][221]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:058][222]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:079][223]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:101][224]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:122][225]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:144][226]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:165][227]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:187][228]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:208][229]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:230][230]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:251][231]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:273][232]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:294][233]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:316][234]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:337][235]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:625][268]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:646][269]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:668][270]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:689][271]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:710][272]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:732][273]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:754][274]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:775][275]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:797][276]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:818][277]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:840][278]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:861][279]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:883][280]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:904][281]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:926][282]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:948][283]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:969][284]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.15:990][285]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:012][286]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:033][287]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:055][288]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:076][289]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:098][290]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:119][291]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:141][292]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:162][293]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:184][294]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:205][295]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:227][296]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:248][297]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:270][298]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:291][299]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:313][300]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:335][301]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:356][302]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:377][303]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:399][304]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:420][305]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:442][306]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:464][307]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:486][308]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:507][309]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:529][310]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:550][311]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:572][312]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:593][313]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:614][314]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:636][315]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:658][316]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:679][317]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:701][318]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:722][319]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:744][320]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:766][321]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:787][322]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:809][323]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:831][324]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:852][325]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:874][326]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:895][327]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:917][328]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:939][329]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:960][330]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.16:982][331]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:003][332]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:025][333]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:046][334]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:070][335]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:091][336]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:113][337]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:134][338]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:156][339]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:177][340]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:199][341]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:320][354]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:358][357]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:437][365]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:459][366]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:481][367]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:503][368]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:532][370]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:770][397]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:792][398]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:814][399]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:835][400]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:857][401]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:878][402]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:900][403]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:922][404]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:944][405]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:965][406]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.17:987][407]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:008][408]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:030][409]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:051][410]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:073][411]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:095][412]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:116][413]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:138][414]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:159][415]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:181][416]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:203][417]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:225][418]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:246][419]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:268][420]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:289][421]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:311][422]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:332][423]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:354][424]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:375][425]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:397][426]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:419][427]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:441][428]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:463][429]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:484][430]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:507][431]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:528][432]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:550][433]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:572][434]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:594][435]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:617][436]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:640][437]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:662][438]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:684][439]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:706][440]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:727][441]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:749][442]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:770][443]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:792][444]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:813][445]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:835][446]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:857][447]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:878][448]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:900][449]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:922][450]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:944][451]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:966][452]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.18:987][453]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.19:009][454]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.19:031][455]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.19:052][456]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.19:346][489]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.20.22:581][875]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.20.24:079][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.20.29:399][684]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.05.05-15.20.34:694][300]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.20.37:669][644]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.38:618][757]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.39:008][803]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.40:691][999]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.20.45:978][616]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.46:394][665]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.47:258][768]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.51:808][311]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.52:582][404]Cmd: ACTOR HIDE SELECTED
+[2015.05.05-15.20.53:223][477]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.54:247][599]LogEditorViewport: Clicking Background
+[2015.05.05-15.20.54:989][687]LogEditorViewport: Clicking Background
+[2015.05.05-15.21.02:184][546]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.05.05-15.21.02:184][546]Can't find target actor or component.
+[2015.05.05-15.21.20:824][781]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.20:825][781]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.21:049][802]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.21:049][802]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.21:247][807]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.21:247][807]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.21:431][816]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.21:432][816]LogEditorTransaction: Undo Hide Selected
+[2015.05.05-15.21.23:111][ 15]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.23:112][ 15]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.25:930][352]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.25:931][352]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.26:811][457]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.26:811][457]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.27:191][502]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.27:192][502]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.27:504][536]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.27:505][536]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.28:026][596]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.28:026][596]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.28:361][635]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.28:362][635]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.28:683][673]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.28:684][673]LogEditorTransaction: Undo Clicking Background
+[2015.05.05-15.21.29:174][728]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.29:175][728]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.30:456][876]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.30:457][876]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.30:937][931]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.30:937][931]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.31:325][974]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.31:326][974]LogEditorTransaction: Undo Move Actors
+[2015.05.05-15.21.31:836][ 30]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.31:837][ 30]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.32:238][ 75]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.32:239][ 75]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.32:695][129]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.32:695][129]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.33:132][179]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.33:133][179]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.33:512][222]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.33:512][222]LogEditorTransaction: Undo Move Actors
+[2015.05.05-15.21.33:788][251]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.33:789][251]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.34:254][302]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.34:255][302]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.21.35:628][459]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.35:628][459]LogEditorTransaction: Undo Move Actors
+[2015.05.05-15.21.36:380][544]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.36:380][544]LogEditorTransaction: Undo Move Actors
+[2015.05.05-15.21.37:934][726]Cmd: TRANSACTION UNDO
+[2015.05.05-15.21.37:935][726]LogEditorTransaction: Undo Move Actors
+[2015.05.05-15.21.39:697][932]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.21.40:992][ 79]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:014][ 80]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:036][ 81]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:058][ 82]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:179][ 95]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:201][ 96]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:223][ 97]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:245][ 98]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:267][ 99]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:289][100]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:311][101]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:333][102]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:355][103]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:377][104]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:399][105]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:421][106]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:443][107]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:465][108]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:487][109]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:509][110]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:531][111]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:553][112]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:575][113]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:597][114]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:619][115]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:641][116]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:663][117]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:685][118]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:707][119]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:729][120]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:750][121]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:773][122]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:795][123]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:817][124]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:839][125]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:861][126]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:883][127]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:905][128]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:927][129]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:948][130]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:970][131]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.41:992][132]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:015][133]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:037][134]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:059][135]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:082][136]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:104][137]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:126][138]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:148][139]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:170][140]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:442][171]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:464][172]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:486][173]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:508][174]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:530][175]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:552][176]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:574][177]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:596][178]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:618][179]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:640][180]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:662][181]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:684][182]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:705][183]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:730][184]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:752][185]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:775][186]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:797][187]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:819][188]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:841][189]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.42:988][205]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:010][206]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:033][207]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:055][208]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:077][209]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:099][210]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:122][211]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:144][212]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:166][213]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:188][214]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:211][215]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:233][216]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:255][217]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:276][218]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:832][283]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:854][284]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:876][285]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:898][286]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:920][287]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:942][288]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:964][289]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.43:986][290]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:008][291]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:030][292]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:053][293]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:075][294]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:097][295]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:119][296]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:141][297]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:164][298]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:186][299]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:208][300]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:230][301]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:252][302]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:274][303]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:296][304]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:318][305]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:340][306]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:362][307]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:384][308]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:406][309]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:428][310]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:533][321]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:555][322]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:578][323]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:600][324]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:622][325]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:644][326]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:824][346]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.44:851][347]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:470][539]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:542][546]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:564][547]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:587][548]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:609][549]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:631][550]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:869][577]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:891][578]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:914][579]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:936][580]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.46:958][581]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:122][599]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:185][605]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:208][606]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:230][607]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:252][608]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:274][609]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:438][627]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:460][628]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:482][629]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:504][630]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:768][660]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.47:795][661]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.21.48:683][767]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.22.02:504][421]Cmd: DELETE
+[2015.05.05-15.22.02:504][421]Cmd: ACTOR DELETE
+[2015.05.05-15.22.02:505][421]LogEditorActor: Deleted Actor: BP_StartLevel_C
+[2015.05.05-15.22.02:508][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.05-15.22.02:856][421]LogEditorActor: Deleted 1 Actors (0.351 secs)
+[2015.05.05-15.22.05:450][732]Cmd: TRANSACTION UNDO
+[2015.05.05-15.22.05:450][732]LogEditorTransaction: Undo Delete Actors
+[2015.05.05-15.22.06:009][759]Cmd: TRANSACTION UNDO
+[2015.05.05-15.22.06:009][759]LogEditorTransaction: Undo Snap Actors To Floor
+[2015.05.05-15.22.08:669][ 69]Cmd: TRANSACTION UNDO
+[2015.05.05-15.22.08:670][ 69]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.05-15.22.10:121][240]Cmd: TRANSACTION UNDO
+[2015.05.05-15.22.10:122][240]LogEditorTransaction: Undo Move Actors
+[2015.05.05-15.22.10:697][305]Cmd: TRANSACTION UNDO
+[2015.05.05-15.22.10:698][305]LogEditorTransaction: Undo Move Actors
+[2015.05.05-15.22.26:401][155]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:423][156]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:445][157]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:467][158]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:490][159]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:512][160]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:534][161]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:556][162]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:578][163]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:600][164]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:622][165]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:644][166]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:666][167]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:688][168]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:711][169]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:774][175]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:846][182]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:893][186]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:915][187]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:937][188]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:960][189]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.26:982][190]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:004][191]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:026][192]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:048][193]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:071][194]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:093][195]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:115][196]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:137][197]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:159][198]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:181][199]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:203][200]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:226][201]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:248][202]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:270][203]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:292][204]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:439][220]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:461][221]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:483][222]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:505][223]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:528][224]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:550][225]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:721][244]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:744][245]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:766][246]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:788][247]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:810][248]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.27:832][249]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:121][282]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:143][283]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:165][284]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:188][285]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:210][286]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:232][287]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:254][288]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:276][289]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:298][290]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:321][291]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:343][292]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:365][293]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:387][294]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:410][295]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:432][296]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:455][297]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:477][298]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:499][299]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:654][316]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:676][317]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:698][318]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:721][319]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:743][320]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:765][321]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:787][322]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:810][323]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:832][324]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:854][325]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:876][326]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:899][327]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:921][328]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:944][329]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:966][330]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.28:988][331]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:011][332]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:033][333]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:055][334]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:077][335]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:100][336]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:122][337]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:144][338]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:166][339]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.29:377][362]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:099][684]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:125][685]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:151][686]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:175][687]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:197][688]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:223][689]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:246][690]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:273][691]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:295][692]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:317][693]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:340][694]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:364][695]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:386][696]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:409][697]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:432][698]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:454][699]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:477][700]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:500][701]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:525][702]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:548][703]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:570][704]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:592][705]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:615][706]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:638][707]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:660][708]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:683][709]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:706][710]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:734][711]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:761][712]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:783][713]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:806][714]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:828][715]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:851][716]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:877][717]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:900][718]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:924][719]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:947][720]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:974][721]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.32:997][722]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.33:214][746]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.33:367][762]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.42:932][863]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.42:964][864]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.42:996][865]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:018][866]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:041][867]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:063][868]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:085][869]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:108][870]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:130][871]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:152][872]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:175][873]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:197][874]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:220][875]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:243][876]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:265][877]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:287][878]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:310][879]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:332][880]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:354][881]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:377][882]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:399][883]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:422][884]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:445][885]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:468][886]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:490][887]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:513][888]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:535][889]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:615][897]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:820][920]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:843][921]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:865][922]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:888][923]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:910][924]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:933][925]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:955][926]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.43:978][927]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.44:000][928]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.44:023][929]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.44:045][930]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.44:068][931]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.44:090][932]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.44:113][933]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.45:057][ 44]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:560][341]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:607][345]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:629][346]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:651][347]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:674][348]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:696][349]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:718][350]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:740][351]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:763][352]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:785][353]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:808][354]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:831][355]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:853][356]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:876][357]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:898][358]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:920][359]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:943][360]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:965][361]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.47:987][362]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:142][379]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:173][381]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:195][382]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:218][383]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:240][384]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:604][426]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:626][427]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:648][428]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:671][429]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.48:693][430]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.49:215][491]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.49:238][492]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.49:261][493]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.49:788][554]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.05-15.22.54:170][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.05-15.23.08:529][786]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.05-15.23.08:530][786]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 11:23:08 am)
+[2015.05.05-15.23.08:545][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014354s)
+[2015.05.05-15.23.08:546][786]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2015.05.05-15.23.08:546][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.015845s)
+[2015.05.05-15.23.08:578][786]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-15.23.08:580][786]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-15.23.08:592][786]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.06-01.23.08
+[2015.05.05-15.23.08:593][786]LogWorld: Bringing up level for play took: 0.012612
+[2015.05.05-15.23.08:595][786]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0
+[2015.05.05-15.23.12:916][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000239876A0
+[2015.05.05-15.23.22:378][423]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.05-15.23.22:379][423]PIE: New page: PIE session: 2DSideScrollerExampleMap (6 May 2015 11:23:22 am)
+[2015.05.05-15.23.22:394][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013905s)
+[2015.05.05-15.23.22:394][423]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2015.05.05-15.23.22:395][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.015260s)
+[2015.05.05-15.23.22:425][423]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.05-15.23.22:427][423]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.05-15.23.22:439][423]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.06-01.23.22
+[2015.05.05-15.23.22:441][423]LogWorld: Bringing up level for play took: 0.012597
+[2015.05.05-15.23.22:443][423]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.153
+[2015.05.05-15.23.24:208][625]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023985620
+[2015.05.05-15.23.41:109][574]LogSavePackage: Save=133.931686ms
+[2015.05.05-15.23.41:110][574]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/Saved/2DSideScrollerExampleMap4B0B02394DFCD1FE5A2893B5091F6D51.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/Content/EndlessRunner/Maps/2DSideScrollerExampleMap.umap'
+[2015.05.05-15.23.54:274][ 87]LogRenderer:Warning: Reallocating scene render targets to support 1752x928 (Frame:67734).
+[2015.05.05-15.24.04:047][207]Cmd: QUIT_EDITOR
+[2015.05.05-15.24.04:234][207]LogExit: Preparing to exit.
+[2015.05.05-15.24.05:361][207]LogExit: Editor shut down
+[2015.05.05-15.24.05:362][207]LogExit: Transaction tracking system shut down
+[2015.05.05-15.24.05:366][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D64CC20
+[2015.05.05-15.24.05:367][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C68D760
+[2015.05.05-15.24.05:368][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CC82DE0
+[2015.05.05-15.24.05:369][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F161B20
+[2015.05.05-15.24.05:420][207]LogExit: Object subsystem successfully closed.
+[2015.05.05-15.24.05:462][207]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.05.05-15.24.05:462][207]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.05.05-15.24.05:462][207]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.05.05-15.24.05:462][207]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.05.05-15.24.05:463][207]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.05.05-15.24.05:463][207]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.05.05-15.24.05:463][207]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.05.05-15.24.05:463][207]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.05.05-15.24.05:464][207]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.05.05-15.24.05:464][207]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.05.05-15.24.05:464][207]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.05.05-15.24.05:464][207]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.05.05-15.24.05:465][207]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.05.05-15.24.05:465][207]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.05.05-15.24.05:465][207]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.05.05-15.24.05:465][207]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.05.05-15.24.05:465][207]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.05.05-15.24.05:466][207]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.05.05-15.24.05:466][207]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.05.05-15.24.05:466][207]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.05.05-15.24.05:466][207]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.05.05-15.24.05:467][207]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.05.05-15.24.05:467][207]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.05.05-15.24.05:467][207]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.05.05-15.24.05:467][207]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.05.05-15.24.05:467][207]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.05.05-15.24.05:468][207]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.05.05-15.24.05:468][207]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.05.05-15.24.05:468][207]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.05.05-15.24.05:468][207]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.05.05-15.24.05:468][207]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.05.05-15.24.05:469][207]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.05.05-15.24.05:707][207]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.05.05-15.24.05:708][207]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.05.05-15.24.05:708][207]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.05.05-15.24.05:708][207]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.05.05-15.24.05:709][207]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.05.05-15.24.05:709][207]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.05.05-15.24.05:709][207]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.05.05-15.24.05:709][207]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.05.05-15.24.05:710][207]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.05.05-15.24.05:710][207]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.05.05-15.24.05:710][207]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.05.05-15.24.05:710][207]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.05.05-15.24.05:710][207]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.05.05-15.24.05:711][207]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.05.05-15.24.05:711][207]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.05.05-15.24.05:711][207]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.05.05-15.24.05:711][207]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.05.05-15.24.05:712][207]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.05.05-15.24.05:712][207]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.05.05-15.24.05:809][207]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.05.05-15.24.05:810][207]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.05.05-15.24.05:810][207]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.05.05-15.24.05:811][207]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.05.05-15.24.05:811][207]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.05.05-15.24.05:812][207]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.05.05-15.24.05:812][207]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.05.05-15.24.05:812][207]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.05.05-15.24.05:812][207]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.05.05-15.24.05:812][207]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.05.05-15.24.05:813][207]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.05.05-15.24.05:813][207]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.05.05-15.24.05:813][207]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.05.05-15.24.05:813][207]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.05.05-15.24.05:813][207]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.05.05-15.24.05:814][207]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.05.05-15.24.05:814][207]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.05.05-15.24.05:814][207]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.05.05-15.24.05:814][207]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.05.05-15.24.05:814][207]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.05.05-15.24.05:815][207]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.05.05-15.24.05:932][207]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.05.05-15.24.05:933][207]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.05.05-15.24.05:933][207]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.05.05-15.24.05:933][207]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.05.05-15.24.05:933][207]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.05.05-15.24.05:933][207]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.05.05-15.24.05:934][207]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.05.05-15.24.05:934][207]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.05.05-15.24.05:934][207]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.05.05-15.24.05:934][207]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.05.05-15.24.05:935][207]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.05.05-15.24.05:935][207]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.05.05-15.24.05:935][207]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.05.05-15.24.05:935][207]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.05.05-15.24.05:936][207]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.05.05-15.24.05:936][207]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.05.05-15.24.05:936][207]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.05.05-15.24.05:936][207]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.05.05-15.24.05:937][207]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.05.05-15.24.05:937][207]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.05.05-15.24.05:937][207]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.05.05-15.24.05:937][207]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.05.05-15.24.05:937][207]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.05.05-15.24.05:938][207]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.05.05-15.24.05:938][207]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.05.05-15.24.05:938][207]LogModuleManager: Shutting down and abandoning module SpaceRace (81)
+[2015.05.05-15.24.05:939][207]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.05-15.24.05:939][207]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.05-15.24.06:039][207]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.05-15.24.06:039][207]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.05-15.24.06:041][207]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.05-15.24.06:041][207]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.05-15.24.06:042][207]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.05-15.24.06:042][207]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.05-15.24.06:043][207]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.05-15.24.06:043][207]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.05-15.24.06:043][207]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.05-15.24.06:043][207]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.05-15.24.06:043][207]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.05-15.24.06:044][207]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.05-15.24.06:044][207]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.05-15.24.06:044][207]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.05-15.24.06:044][207]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.05-15.24.06:044][207]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.05-15.24.06:045][207]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.05-15.24.06:047][207]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.05-15.24.06:048][207]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.05-15.24.06:048][207]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.05-15.24.06:048][207]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.05-15.24.06:048][207]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.05-15.24.06:048][207]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.05-15.24.06:049][207]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.05-15.24.06:049][207]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.05-15.24.06:049][207]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.05-15.24.06:049][207]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.05-15.24.06:122][207]LogDerivedDataCache: Shutdown
+[2015.05.05-15.24.06:122][207]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.05-15.24.06:123][207]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.05-15.24.06:123][207]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.05-15.24.06:123][207]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.05-15.24.06:123][207]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.05-15.24.06:123][207]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.05-15.24.06:124][207]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.05-15.24.06:124][207]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.05-15.24.06:124][207]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.05-15.24.06:124][207]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.05-15.24.06:124][207]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.05-15.24.06:125][207]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.05-15.24.06:125][207]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.05-15.24.06:125][207]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.05-15.24.06:125][207]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.05-15.24.06:125][207]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.05-15.24.06:126][207]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.05-15.24.06:126][207]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.05-15.24.06:126][207]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.05-15.24.06:126][207]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.05-15.24.06:126][207]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.05-15.24.06:126][207]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.05-15.24.06:127][207]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.05-15.24.06:127][207]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.05-15.24.06:127][207]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.05-15.24.06:127][207]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.05-15.24.06:127][207]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.05-15.24.06:128][207]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.05-15.24.06:128][207]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.05-15.24.06:128][207]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.05-15.24.06:128][207]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.05-15.24.06:128][207]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.05-15.24.06:129][207]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.05-15.24.06:129][207]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.05-15.24.06:129][207]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.05-15.24.06:129][207]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.05-15.24.06:129][207]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.05-15.24.06:130][207]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.05-15.24.06:130][207]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.05-15.24.06:130][207]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.05-15.24.06:133][207]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.05-15.24.06:133][207]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.05-15.24.06:133][207]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.05-15.24.06:134][207]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.05-15.24.06:134][207]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.05-15.24.06:134][207]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.05-15.24.06:134][207]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.05-15.24.06:134][207]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.05-15.24.06:135][207]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.05-15.24.06:137][207]LogExit: Exiting.
+[2015.05.05-15.24.06:141][207]Log file closed, 05/06/15 01:24:06
