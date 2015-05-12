@@ -1,0 +1,746 @@
+﻿Log file open, 05/12/15 03:33:39
+LogInit:Display: Running engine for game: SpaceRace
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.11-17.33.39:372][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.11-17.33.39:425][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.11-17.33.39:439][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.11-17.33.39:448][  0]LogInit: Object subsystem initialized
+[2015.05.11-17.33.39:450][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.11-17.33.39:450][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-17.33.39:450][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.11-17.33.39:450][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-17.33.39:450][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.11-17.33.39:450][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-17.33.39:451][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.11-17.33.39:451][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.11-17.33.39:456][  0]LogInit: Computer: MICHAELHERBERT
+[2015.05.11-17.33.39:456][  0]LogInit: User: MichaelHerbert
+[2015.05.11-17.33.39:456][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.11-17.33.39:456][  0]LogInit: High frequency timer resolution =3.515673 MHz
+[2015.05.11-17.33.39:456][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.05.11-17.33.39:457][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-17.33.39:457][  0]LogMemory: Process Physical Memory: 51.16 MB used, 51.16 MB peak
+[2015.05.11-17.33.39:457][  0]LogMemory: Process Virtual Memory: 28.06 MB used, 28.06 MB peak
+[2015.05.11-17.33.39:457][  0]LogMemory: Physical Memory: 6995.58 MB used, 16244.83 MB total
+[2015.05.11-17.33.39:457][  0]LogMemory: Virtual Memory: 349.78 MB used, 8388608.00 MB total
+[2015.05.11-17.33.39:475][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.05.11-17.33.39:475][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.05.11-17.33.39:475][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.11-17.33.39:481][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.05.11-17.33.39:487][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.11-17.33.39:539][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.11-17.33.39:599][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.11-17.33.39:600][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.11-17.33.39:683][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.11-17.33.41:971][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-17.33.42:507][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-17.33.42:575][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.11-17.33.42:612][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Michael Herbert/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-17.33.42:612][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Michael Herbert/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.11-17.33.42:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.11-17.33.42:613][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.11-17.33.42:729][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.11-17.33.42:740][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Michael Herbert/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.11-17.33.43:056][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.11-17.33.43:056][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.11-17.33.43:486][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.11-17.33.43:566][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.11-17.33.44:266][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.11-17.33.44:488][  0]SourceControl: Info Source control is disabled
+[2015.05.11-17.33.44:488][  0]SourceControl: Info Source control is disabled
+[2015.05.11-17.33.44:488][  0]SourceControl: Info Source control is disabled
+[2015.05.11-17.33.44:488][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.11-17.33.44:488][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.11-17.33.44:498][  0]SourceControl: Info Source control is disabled
+[2015.05.11-17.33.44:687][  0]LogObj: 24236 objects as part of root set at end of initial load.
+[2015.05.11-17.33.44:687][  0]LogUObjectAllocator: 5138808 out of 0 bytes used by permanent object pool.
+[2015.05.11-17.33.44:767][  0]LogEngine: Initializing Engine...
+[2015.05.11-17.33.46:960][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.11-17.33.46:969][  0]LogInit: FAudioDevice initialized.
+[2015.05.11-17.33.47:010][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.11-17.33.47:036][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Michael Herbert/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-17.33.47:038][  0]LogInit: Texture streaming: Enabled
+[2015.05.11-17.33.47:121][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.11-17.33.47:121][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-17.33.47:121][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-17.33.47:121][  0]LogAnalytics: SetUserId 0f88b27845e758115f4ad7ad96ed6ef6|51fe2412c8b74b02bd802614c621f646|4b488e6f-c617-4327-aaf9-74763d8f78d1
+[2015.05.11-17.33.47:121][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.11-17.33.47:147][  0]LogInit: Transaction tracking system initialized
+[2015.05.11-17.33.47:321][  0]BlueprintLog: New page: Editor Load
+[2015.05.11-17.33.47:354][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2015.05.11-17.33.47:354][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.11-17.33.47:906][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-17.33.48:253][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-17.33.48:512][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.11-17.33.48:513][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.11-17.33.48:517][  0]LogConsoleResponse:Display: 
+[2015.05.11-17.33.48:648][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.11-17.33.48:798][  0]SourceControl: Info Source control is disabled
+[2015.05.11-17.33.48:798][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Content/EndlessRunner/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-17.33.48:799][  0]LightingResults: New page: Lighting Build
+[2015.05.11-17.33.48:813][  0]MapCheck: New page: Map Check
+[2015.05.11-17.33.48:813][  0]LightingResults: New page: Lighting Build
+[2015.05.11-17.33.48:822][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017F6A980
+[2015.05.11-17.33.50:160][  0]LogProperty:Warning: Serialized Class /Script/Engine.SceneComponent for a property of Class /Script/Engine.ProjectileMovementComponent. Reference will be NULLed.
+    Property = ObjectProperty /Engine/Transient.TRASHCLASS_BP_StartLevel_85:ObjectProperty_134
+    Item = SceneComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_MidLevel_263.Scene
+[2015.05.11-17.33.50:160][  0]LogProperty:Warning: Serialized Class /Script/Engine.SceneComponent for a property of Class /Script/Engine.ProjectileMovementComponent. Reference will be NULLed.
+    Property = ObjectProperty /Engine/Transient.TRASHCLASS_BP_StartLevel_85:ObjectProperty_134
+    Item = SceneComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_EndLevel_195.Scene
+[2015.05.11-17.33.50:395][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-17.33.50:396][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.33.50:396][  0]Cmd: MAP CHECKDEP
+[2015.05.11-17.33.50:396][  0]MapCheck: New page: 2DSideScrollerExampleMap - 12 May 2015 1:33:50 pm
+[2015.05.11-17.33.50:554][  0]MapCheck:Warning: Warning Sprite0 PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_3.Sprite0 : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_550.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_551.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_552.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_553.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_554.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_555.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_556.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_557.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_558.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_559.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_560.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1023.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1024.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:555][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1025.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1026.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1027.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1028.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1029.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1030.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1031.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1032.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1033.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1408.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1409.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1410.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1411.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:556][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1412.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1413.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1414.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1415.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1416.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1417.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1418.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin3_127.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin4_258.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin5_377.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin6_576.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:557][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin7_707.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin8_846.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin9_961.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin10_1092.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin11_1239.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin12_1430.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_StartLevel_416.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_EndLevel_195.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_MidLevel_263.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_0.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_1.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_2.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:558][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_3.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_4.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_5.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_C_6.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.SmallAsteroid_122.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.SmallAsteroid2_199.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.SmallAsteroid3_256.PaperSprite : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning RightEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.RightEdge : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning LeftEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.LeftEdge : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning TopEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.TopEdge : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning BottomEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.BottomEdge : Externally referenced 
+[2015.05.11-17.33.50:559][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A0_Sprite_2.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:560][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A1_Sprite_17.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:560][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A2_Sprite_20.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:560][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A3_Sprite_23.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:560][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A4_Sprite_26.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:560][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A5_Sprite_0.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:560][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.A6_Sprite_31.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:560][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B0_Sprite_5.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B1_Sprite_34.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B2_Sprite_37.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B3_Sprite_40.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B4_Sprite_43.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B5_Sprite_46.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.B6_Sprite_49.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C0_Sprite_8.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:561][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C1_Sprite_53.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C2_Sprite_56.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C3_Sprite_59.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C4_Sprite_62.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C5_Sprite_65.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.C6_Sprite_68.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D0_Sprite_14.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D1_Sprite_71.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D2_Sprite_74.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:562][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D3_Sprite_77.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:563][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D4_Sprite_80.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:563][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D5_Sprite_83.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:563][  0]MapCheck:Warning: Warning RenderComponent PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.D6_Sprite_89.RenderComponent : Externally referenced 
+[2015.05.11-17.33.50:563][  0]MapCheck: Info Map check complete: 0 Error(s), 89 Warning(s), took 166.575ms to complete.
+[2015.05.11-17.33.50:573][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.775
+[2015.05.11-17.33.50:698][  0]LogCollectionManager: Loaded 0 collections in 0.002255 seconds
+[2015.05.11-17.33.50:711][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 1697 classes and 263 folders.
+[2015.05.11-17.33.50:743][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0045 seconds. Added 1 classes and 2 folders.
+[2015.05.11-17.33.50:784][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.11-17.33.50:785][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.11-17.33.50:791][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.11-17.33.50:815][  0]LogLoad: Full Startup: 13.29 seconds (BP compile: 0.56 seconds)
+[2015.05.11-17.33.51:182][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/EndlessRunner/Blueprints'
+[2015.05.11-17.33.51:350][  0]LogRenderer:Warning: Reallocating scene render targets to support 472x240 (Frame:2).
+[2015.05.11-17.33.51:843][  2]LogRenderer:Warning: Reallocating scene render targets to support 472x256 (Frame:3).
+[2015.05.11-17.33.52:461][  3]LogAssetRegistry: Asset discovery search completed in 5.1173 seconds
+[2015.05.11-17.34.20:920][345]LogRenderer:Warning: Reallocating scene render targets to support 592x640 (Frame:341).
+[2015.05.11-17.36.32:596][847]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-17.40.20:080][490]LogSavePackage: Save=107.556931ms
+[2015.05.11-17.40.20:080][490]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/ShipCharacterF8B4E35241F55CEEC9F0EFB760CAA79C.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Content/EndlessRunner/Blueprints/ShipCharacter.uasset'
+[2015.05.11-17.40.21:249][530]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.11-17.40.21:302][530]LogBlueprint:Error: [compiler] Error No delegate function name  Create Event 
+[2015.05.11-17.40.21:302][530]LogBlueprint:Error: [compiler] Error Event signature error:  No function name.  Create Event 
+[2015.05.11-17.40.21:449][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-17.40.21:519][530]LogBlueprint:Warning: [compiler] Warning [0403.98] Compile of ShipCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 270 ms]
+[2015.05.11-17.40.21:520][530]BlueprintEditorCompileResults:Error: Error No delegate function name  Create Event 
+[2015.05.11-17.40.21:520][530]BlueprintEditorCompileResults:Error: Error Event signature error:  No function name.  Create Event 
+[2015.05.11-17.40.21:520][530]BlueprintEditorCompileResults:Warning: Warning [0403.98] Compile of ShipCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 270 ms]
+[2015.05.11-17.40.24:699][659]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.11-17.40.24:700][659]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/EndlessRunner/Blueprints'
+[2015.05.11-17.40.35:670][310]LogSavePackage: Save=79.493172ms
+[2015.05.11-17.40.35:670][310]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/ShipCharacter8DBDBB86495AAB04C088FC9EDA4F124C.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Content/EndlessRunner/Blueprints/ShipCharacter.uasset'
+[2015.05.11-17.40.37:222][379]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.11-17.40.37:384][379]BlueprintEditorCompileResults: Info [0419.85] Compile of ShipCharacter successful! [in 161 ms]
+[2015.05.11-17.41.06:259][542]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-17.41.06:263][542]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.11-17.41.06:341][542]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.11-17.41.06:460][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-17.41.06:570][542]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.11-17.41.06:617][542]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.11-17.41.06:673][542]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.11-17.41.06:725][542]LogPlayLevel: [PIE] Compiling SmallAsteroid before PIE...
+[2015.05.11-17.41.06:773][542]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.11-17.41.06:784][542]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.11-17.41.06:856][542]LogBlueprint:Warning: [compiler] Warning [0449.32] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 80 ms]
+[2015.05.11-17.41.06:856][542]LogBlueprint:Warning: [compiler] Warning [0449.32] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.11-17.41.06:857][542]LogBlueprint:Warning: [compiler] Warning [0449.32] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.11-17.41.06:860][542]LogBlueprint:Warning: [compiler] Warning [0449.33] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2015.05.11-17.41.06:870][542]LogBlueprint:Warning: [compiler] Warning [0449.34] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 9 ms]
+[2015.05.11-17.41.06:871][542]LogBlueprint:Warning: [compiler] Warning [0449.34] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.11-17.41.06:875][542]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.11-17.41.06:953][542]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.11-17.41.06:998][542]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.11-17.41.07:043][542]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.11-17.41.07:195][542]LogPlayLevel: PIE:  Blueprint regeneration took 936 ms (11 blueprints)
+[2015.05.11-17.41.12:141][542]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.11-17.41.12:141][542]PIE: New page: PIE session: 2DSideScrollerExampleMap (12 May 2015 1:41:12 pm)
+[2015.05.11-17.41.12:150][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008011s)
+[2015.05.11-17.41.12:150][542]LogPlayLevel: PIE: World Init took: (0.000358s)
+[2015.05.11-17.41.12:150][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008513s)
+[2015.05.11-17.41.12:198][542]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.41.12:202][542]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.41.12:216][542]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.41.12
+[2015.05.11-17.41.12:218][542]LogWorld: Bringing up level for play took: 0.015114
+[2015.05.11-17.41.12:233][542]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 6.126
+[2015.05.11-17.41.16:732][829]Cmd: RestartLevel
+[2015.05.11-17.41.16:748][830]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.11-17.41.16:759][830]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.11-17.41.16:783][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037F5DA80
+[2015.05.11-17.41.16:783][830]Cmd: MEM
+[2015.05.11-17.41.16:804][830]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-17.41.16:804][830]LogMemory: Process Physical Memory: 664.27 MB used, 676.89 MB peak
+[2015.05.11-17.41.16:804][830]LogMemory: Process Virtual Memory: 615.86 MB used, 615.86 MB peak
+[2015.05.11-17.41.16:804][830]LogMemory: Physical Memory: 8051.54 MB used, 16244.83 MB total
+[2015.05.11-17.41.16:804][830]LogMemory: Virtual Memory: 1306.60 MB used, 8388608.00 MB total
+[2015.05.11-17.41.16:804][830]LogMemory: 
+[2015.05.11-17.41.16:804][830]Allocator Stats for TBB: (not implemented)
+[2015.05.11-17.41.16:811][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006865s)
+[2015.05.11-17.41.16:811][830]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2015.05.11-17.41.16:812][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007561s)
+[2015.05.11-17.41.16:812][830]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.41.16:813][830]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.41.16:825][830]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.41.16
+[2015.05.11-17.41.16:826][830]LogWorld: Bringing up level for play took: 0.012541
+[2015.05.11-17.41.26:908][489]Cmd: RestartLevel
+[2015.05.11-17.41.26:922][490]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.11-17.41.26:937][490]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.11-17.41.26:960][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037F5EAC0
+[2015.05.11-17.41.26:963][490]Cmd: MEM
+[2015.05.11-17.41.26:983][490]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-17.41.26:983][490]LogMemory: Process Physical Memory: 665.51 MB used, 680.52 MB peak
+[2015.05.11-17.41.26:983][490]LogMemory: Process Virtual Memory: 616.30 MB used, 616.63 MB peak
+[2015.05.11-17.41.26:983][490]LogMemory: Physical Memory: 8044.23 MB used, 16244.83 MB total
+[2015.05.11-17.41.26:983][490]LogMemory: Virtual Memory: 1307.25 MB used, 8388608.00 MB total
+[2015.05.11-17.41.26:983][490]LogMemory: 
+[2015.05.11-17.41.26:983][490]Allocator Stats for TBB: (not implemented)
+[2015.05.11-17.41.26:990][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007599s)
+[2015.05.11-17.41.26:991][490]LogPlayLevel: PIE: World Init took: (0.000372s)
+[2015.05.11-17.41.26:991][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008150s)
+[2015.05.11-17.41.26:991][490]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.41.26:992][490]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.41.27:005][490]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.41.27
+[2015.05.11-17.41.27:006][490]LogWorld: Bringing up level for play took: 0.012719
+[2015.05.11-17.41.35:309][184]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001509C0E0
+[2015.05.11-17.44.23:097][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-17.44.23:374][ 33]LogSavePackage: Save=181.427002ms
+[2015.05.11-17.44.23:374][ 33]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/2DSideScrollerExampleMap_Auto17DC4756E4172370CFF9736B6C850BE5A.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2015.05.11-17.44.23:388][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap' took 0.291
+[2015.05.11-17.44.23:388][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2015.05.11-17.44.23:424][ 33]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/ShipCharacter] ([1] browsable assets)...
+[2015.05.11-17.44.23:424][ 33]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/ShipCharacter]
+[2015.05.11-17.44.23:619][ 33]LogSavePackage: Save=165.644821ms
+[2015.05.11-17.44.23:619][ 33]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/ShipCharacter_Auto116B6320D463FFED400A4009CBD66D12C.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/ShipCharacter_Auto1.uasset'
+[2015.05.11-17.44.23:627][ 33]LogFileHelpers: Auto-saving content packages took 0.239
+[2015.05.11-17.44.36:929][413]LogEditorTransaction: Undo Create Pin Link
+[2015.05.11-17.44.37:297][422]LogEditorTransaction: Undo Move Node
+[2015.05.11-17.44.38:044][468]LogEditorTransaction: Undo Add Node
+[2015.05.11-17.44.38:815][489]LogEditorTransaction: Undo Add Node
+[2015.05.11-17.45.17:274][478]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.11-17.45.17:441][478]BlueprintEditorCompileResults: Info [0699.90] Compile of ShipCharacter successful! [in 166 ms]
+[2015.05.11-17.45.26:242][834]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.11-17.45.26:400][834]BlueprintEditorCompileResults: Info [0708.86] Compile of ShipCharacter successful! [in 157 ms]
+[2015.05.11-17.45.37:515][261]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-17.45.37:519][261]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.11-17.45.37:589][261]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.11-17.45.37:697][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-17.45.37:798][261]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.11-17.45.37:846][261]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.11-17.45.37:901][261]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.11-17.45.37:955][261]LogPlayLevel: [PIE] Compiling SmallAsteroid before PIE...
+[2015.05.11-17.45.38:001][261]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.11-17.45.38:010][261]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.11-17.45.38:075][261]LogBlueprint:Warning: [compiler] Warning [0720.54] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 71 ms]
+[2015.05.11-17.45.38:075][261]LogBlueprint:Warning: [compiler] Warning [0720.54] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.11-17.45.38:075][261]LogBlueprint:Warning: [compiler] Warning [0720.54] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.11-17.45.38:078][261]LogBlueprint:Warning: [compiler] Warning [0720.54] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 2 ms]
+[2015.05.11-17.45.38:088][261]LogBlueprint:Warning: [compiler] Warning [0720.55] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 9 ms]
+[2015.05.11-17.45.38:088][261]LogBlueprint:Warning: [compiler] Warning [0720.55] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.11-17.45.38:092][261]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.11-17.45.38:160][261]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.11-17.45.38:206][261]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.11-17.45.38:252][261]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.11-17.45.38:408][261]LogPlayLevel: PIE:  Blueprint regeneration took 893 ms (11 blueprints)
+[2015.05.11-17.45.40:268][261]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.11-17.45.40:269][261]PIE: New page: PIE session: 2DSideScrollerExampleMap (12 May 2015 1:45:40 pm)
+[2015.05.11-17.45.40:279][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009410s)
+[2015.05.11-17.45.40:279][261]LogPlayLevel: PIE: World Init took: (0.000364s)
+[2015.05.11-17.45.40:280][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.009954s)
+[2015.05.11-17.45.40:312][261]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.45.40:313][261]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.45.40:324][261]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.45.40
+[2015.05.11-17.45.40:325][261]LogWorld: Bringing up level for play took: 0.011353
+[2015.05.11-17.45.40:327][261]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 2.215
+[2015.05.11-17.45.43:887][474]Cmd: RestartLevel
+[2015.05.11-17.45.43:901][475]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.11-17.45.43:917][475]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.11-17.45.43:942][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010762FC0
+[2015.05.11-17.45.43:942][475]Cmd: MEM
+[2015.05.11-17.45.43:959][475]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-17.45.43:959][475]LogMemory: Process Physical Memory: 721.96 MB used, 736.31 MB peak
+[2015.05.11-17.45.43:959][475]LogMemory: Process Virtual Memory: 672.42 MB used, 673.74 MB peak
+[2015.05.11-17.45.43:959][475]LogMemory: Physical Memory: 8067.47 MB used, 16244.83 MB total
+[2015.05.11-17.45.43:959][475]LogMemory: Virtual Memory: 1349.19 MB used, 8388608.00 MB total
+[2015.05.11-17.45.43:959][475]LogMemory: 
+[2015.05.11-17.45.43:959][475]Allocator Stats for TBB: (not implemented)
+[2015.05.11-17.45.43:966][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006471s)
+[2015.05.11-17.45.43:966][475]LogPlayLevel: PIE: World Init took: (0.000354s)
+[2015.05.11-17.45.43:966][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006964s)
+[2015.05.11-17.45.43:966][475]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.45.43:968][475]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.45.43:980][475]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.45.43
+[2015.05.11-17.45.43:980][475]LogWorld: Bringing up level for play took: 0.012059
+[2015.05.11-17.45.51:042][922]Cmd: RestartLevel
+[2015.05.11-17.45.51:055][923]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.11-17.45.51:071][923]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.11-17.45.51:090][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010762660
+[2015.05.11-17.45.51:092][923]Cmd: MEM
+[2015.05.11-17.45.51:107][923]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-17.45.51:107][923]LogMemory: Process Physical Memory: 722.39 MB used, 738.02 MB peak
+[2015.05.11-17.45.51:107][923]LogMemory: Process Virtual Memory: 674.49 MB used, 674.49 MB peak
+[2015.05.11-17.45.51:107][923]LogMemory: Physical Memory: 8042.02 MB used, 16244.83 MB total
+[2015.05.11-17.45.51:107][923]LogMemory: Virtual Memory: 1351.25 MB used, 8388608.00 MB total
+[2015.05.11-17.45.51:107][923]LogMemory: 
+[2015.05.11-17.45.51:107][923]Allocator Stats for TBB: (not implemented)
+[2015.05.11-17.45.51:114][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006276s)
+[2015.05.11-17.45.51:114][923]LogPlayLevel: PIE: World Init took: (0.000359s)
+[2015.05.11-17.45.51:114][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006773s)
+[2015.05.11-17.45.51:114][923]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.45.51:116][923]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.45.51:127][923]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.45.51
+[2015.05.11-17.45.51:128][923]LogWorld: Bringing up level for play took: 0.011157
+[2015.05.11-17.45.52:268][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000324A4400
+[2015.05.11-17.45.53:390][ 31]Cmd: SELECT NONE
+[2015.05.11-17.49.21:123][641]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.11-17.49.21:287][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-17.49.21:306][641]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B5707C0
+[2015.05.11-17.49.21:335][641]BlueprintEditorCompileResults: Info [0943.79] Compile of ShipCharacter successful! [in 212 ms]
+[2015.05.11-17.49.28:154][873]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-17.49.28:158][873]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.11-17.49.28:240][873]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.11-17.49.28:464][873]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.11-17.49.28:514][873]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.11-17.49.28:577][873]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.11-17.49.28:634][873]LogPlayLevel: [PIE] Compiling SmallAsteroid before PIE...
+[2015.05.11-17.49.28:688][873]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.11-17.49.28:696][873]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.11-17.49.28:775][873]LogBlueprint:Warning: [compiler] Warning [0951.23] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 83 ms]
+[2015.05.11-17.49.28:775][873]LogBlueprint:Warning: [compiler] Warning [0951.23] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.11-17.49.28:775][873]LogBlueprint:Warning: [compiler] Warning [0951.23] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.11-17.49.28:779][873]LogBlueprint:Warning: [compiler] Warning [0951.24] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2015.05.11-17.49.28:789][873]LogBlueprint:Warning: [compiler] Warning [0951.25] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 10 ms]
+[2015.05.11-17.49.28:789][873]LogBlueprint:Warning: [compiler] Warning [0951.25] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.11-17.49.28:794][873]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.11-17.49.28:873][873]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.11-17.49.28:922][873]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.11-17.49.28:972][873]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.11-17.49.29:146][873]LogPlayLevel: PIE:  Blueprint regeneration took 991 ms (11 blueprints)
+[2015.05.11-17.49.30:684][873]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.11-17.49.30:684][873]PIE: New page: PIE session: 2DSideScrollerExampleMap (12 May 2015 1:49:30 pm)
+[2015.05.11-17.49.30:698][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007037s)
+[2015.05.11-17.49.30:699][873]LogPlayLevel: PIE: World Init took: (0.000359s)
+[2015.05.11-17.49.30:699][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007532s)
+[2015.05.11-17.49.30:730][873]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.49.30:732][873]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.49.30:743][873]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.49.30
+[2015.05.11-17.49.30:745][873]LogWorld: Bringing up level for play took: 0.012159
+[2015.05.11-17.49.30:747][873]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 2.632
+[2015.05.11-17.50.29:424][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D58B240
+[2015.05.11-17.51.18:712][123]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-17.51.23:435][348]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-17.51.36:723][903]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-17.51.37:309][918]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-17.55.33:830][ 63]LogSavePackage: Save=143.388199ms
+[2015.05.11-17.55.33:830][ 63]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/2DSideScrollerExampleMap_Auto26404C8834504906EFFA4C595CD2E4B46.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2015.05.11-17.55.33:838][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap' took 0.226
+[2015.05.11-17.55.33:838][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.226
+[2015.05.11-17.55.33:872][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/ShipCharacter] ([1] browsable assets)...
+[2015.05.11-17.55.33:872][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/ShipCharacter]
+[2015.05.11-17.55.34:064][ 63]LogSavePackage: Save=173.713547ms
+[2015.05.11-17.55.34:065][ 63]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/ShipCharacter_Auto2D5278D0747A8E465D38D0DB459D775BF.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/ShipCharacter_Auto2.uasset'
+[2015.05.11-17.55.34:072][ 63]LogFileHelpers: Auto-saving content packages took 0.234
+[2015.05.11-17.55.46:656][949]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.11-17.55.46:841][949]BlueprintEditorCompileResults: Info [1329.29] Compile of ShipCharacter successful! [in 184 ms]
+[2015.05.11-17.55.52:851][345]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.11-17.55.53:064][345]BlueprintEditorCompileResults: Info [1335.52] Compile of ShipCharacter successful! [in 211 ms]
+[2015.05.11-17.55.56:320][670]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-17.55.56:324][670]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.11-17.55.56:402][670]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.11-17.55.56:632][670]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.11-17.55.56:687][670]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.11-17.55.56:749][670]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.11-17.55.56:802][670]LogPlayLevel: [PIE] Compiling SmallAsteroid before PIE...
+[2015.05.11-17.55.56:855][670]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.11-17.55.56:864][670]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.11-17.55.56:947][670]LogBlueprint:Warning: [compiler] Warning [1339.40] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 89 ms]
+[2015.05.11-17.55.56:947][670]LogBlueprint:Warning: [compiler] Warning [1339.40] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.11-17.55.56:948][670]LogBlueprint:Warning: [compiler] Warning [1339.40] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.11-17.55.56:951][670]LogBlueprint:Warning: [compiler] Warning [1339.40] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2015.05.11-17.55.56:960][670]LogBlueprint:Warning: [compiler] Warning [1339.41] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 9 ms]
+[2015.05.11-17.55.56:960][670]LogBlueprint:Warning: [compiler] Warning [1339.41] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.11-17.55.56:966][670]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.11-17.55.57:042][670]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.11-17.55.57:091][670]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.11-17.55.57:140][670]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.11-17.55.57:333][670]LogPlayLevel: PIE:  Blueprint regeneration took 1012 ms (11 blueprints)
+[2015.05.11-17.55.59:038][670]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.11-17.55.59:038][670]PIE: New page: PIE session: 2DSideScrollerExampleMap (12 May 2015 1:55:59 pm)
+[2015.05.11-17.55.59:046][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007282s)
+[2015.05.11-17.55.59:047][670]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2015.05.11-17.55.59:047][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007897s)
+[2015.05.11-17.55.59:081][670]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.55.59:083][670]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.55.59:094][670]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.55.59
+[2015.05.11-17.55.59:095][670]LogWorld: Bringing up level for play took: 0.011792
+[2015.05.11-17.55.59:107][670]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 2.987
+[2015.05.11-17.55.59:114][670]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:18573).
+[2015.05.11-17.56.18:395][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014D06AC0
+[2015.05.11-17.56.43:140][360]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-17.56.43:157][360]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.11-17.56.43:325][360]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.11-17.56.43:392][360]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.11-17.56.43:512][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-17.56.43:530][360]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012600860
+[2015.05.11-17.56.43:625][360]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.11-17.56.43:674][360]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.11-17.56.43:734][360]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.11-17.56.43:792][360]LogPlayLevel: [PIE] Compiling SmallAsteroid before PIE...
+[2015.05.11-17.56.43:843][360]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.11-17.56.43:854][360]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.11-17.56.43:921][360]LogBlueprint:Warning: [compiler] Warning [1386.37] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 73 ms]
+[2015.05.11-17.56.43:921][360]LogBlueprint:Warning: [compiler] Warning [1386.37] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.11-17.56.43:921][360]LogBlueprint:Warning: [compiler] Warning [1386.37] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.11-17.56.43:925][360]LogBlueprint:Warning: [compiler] Warning [1386.38] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2015.05.11-17.56.43:935][360]LogBlueprint:Warning: [compiler] Warning [1386.39] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 9 ms]
+[2015.05.11-17.56.43:935][360]LogBlueprint:Warning: [compiler] Warning [1386.39] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.11-17.56.43:941][360]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.11-17.56.44:023][360]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.11-17.56.44:077][360]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.11-17.56.44:142][360]LogPlayLevel: PIE:  Blueprint regeneration took 1002 ms (11 blueprints)
+[2015.05.11-17.56.45:519][360]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.11-17.56.45:519][360]PIE: New page: PIE session: 2DSideScrollerExampleMap (12 May 2015 1:56:45 pm)
+[2015.05.11-17.56.45:535][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011623s)
+[2015.05.11-17.56.45:535][360]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2015.05.11-17.56.45:536][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.012292s)
+[2015.05.11-17.56.45:567][360]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.56.45:569][360]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.56.45:584][360]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.56.45
+[2015.05.11-17.56.45:585][360]LogWorld: Bringing up level for play took: 0.015198
+[2015.05.11-17.56.45:586][360]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.465
+[2015.05.11-17.56.57:533][691]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000405031A0
+[2015.05.11-17.57.03:397][ 10]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-17.57.03:412][ 10]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.11-17.57.03:576][ 10]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.11-17.57.03:805][ 10]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.11-17.57.03:867][ 10]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.11-17.57.03:921][ 10]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.11-17.57.03:979][ 10]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.11-17.57.04:035][ 10]LogPlayLevel: [PIE] Compiling SmallAsteroid before PIE...
+[2015.05.11-17.57.04:095][ 10]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.11-17.57.04:104][ 10]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.11-17.57.04:177][ 10]LogBlueprint:Warning: [compiler] Warning [1406.63] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 79 ms]
+[2015.05.11-17.57.04:177][ 10]LogBlueprint:Warning: [compiler] Warning [1406.63] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.11-17.57.04:177][ 10]LogBlueprint:Warning: [compiler] Warning [1406.63] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.11-17.57.04:180][ 10]LogBlueprint:Warning: [compiler] Warning [1406.63] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 2 ms]
+[2015.05.11-17.57.04:187][ 10]LogBlueprint:Warning: [compiler] Warning [1406.64] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 7 ms]
+[2015.05.11-17.57.04:187][ 10]LogBlueprint:Warning: [compiler] Warning [1406.64] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.11-17.57.04:193][ 10]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.11-17.57.04:267][ 10]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.11-17.57.04:314][ 10]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.11-17.57.04:385][ 10]LogPlayLevel: PIE:  Blueprint regeneration took 988 ms (11 blueprints)
+[2015.05.11-17.57.06:732][ 10]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.11-17.57.06:732][ 10]PIE: New page: PIE session: 2DSideScrollerExampleMap (12 May 2015 1:57:06 pm)
+[2015.05.11-17.57.06:744][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010234s)
+[2015.05.11-17.57.06:744][ 10]LogPlayLevel: PIE: World Init took: (0.000360s)
+[2015.05.11-17.57.06:744][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.010755s)
+[2015.05.11-17.57.06:775][ 10]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.57.06:776][ 10]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.57.06:788][ 10]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.57.06
+[2015.05.11-17.57.06:788][ 10]LogWorld: Bringing up level for play took: 0.011998
+[2015.05.11-17.57.06:791][ 10]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 2.67
+[2015.05.11-17.57.14:944][489]Cmd: RestartLevel
+[2015.05.11-17.57.14:960][490]LogNet: Browse: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap?restart
+[2015.05.11-17.57.14:974][490]LogLoad: LoadMap: /Game/EndlessRunner/Maps/2DSideScrollerExampleMap
+[2015.05.11-17.57.15:001][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041F3B100
+[2015.05.11-17.57.15:001][490]Cmd: MEM
+[2015.05.11-17.57.15:019][490]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-17.57.15:019][490]LogMemory: Process Physical Memory: 849.05 MB used, 869.54 MB peak
+[2015.05.11-17.57.15:019][490]LogMemory: Process Virtual Memory: 824.69 MB used, 828.08 MB peak
+[2015.05.11-17.57.15:019][490]LogMemory: Physical Memory: 8237.16 MB used, 16244.83 MB total
+[2015.05.11-17.57.15:019][490]LogMemory: Virtual Memory: 1499.33 MB used, 8388608.00 MB total
+[2015.05.11-17.57.15:019][490]LogMemory: 
+[2015.05.11-17.57.15:019][490]Allocator Stats for TBB: (not implemented)
+[2015.05.11-17.57.15:025][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006036s)
+[2015.05.11-17.57.15:026][490]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.05.11-17.57.15:026][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006735s)
+[2015.05.11-17.57.15:026][490]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.11-17.57.15:028][490]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.11-17.57.15:042][490]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.12-03.57.15
+[2015.05.11-17.57.15:042][490]LogWorld: Bringing up level for play took: 0.013689
+[2015.05.11-17.57.18:157][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010746160
+[2015.05.11-18.02.18:740][726]LogSavePackage: Save=123.493851ms
+[2015.05.11-18.02.18:740][726]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/ShipCharacter84FA557F4E185C1C927A02AC832E5437.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Content/EndlessRunner/Blueprints/ShipCharacter.uasset'
+[2015.05.11-18.02.22:878][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-18.02.22:890][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013BF60C0
+[2015.05.11-18.02.22:891][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000344F04A0
+[2015.05.11-18.02.23:037][851]LogSavePackage: Save=137.295761ms
+[2015.05.11-18.02.23:037][851]LogSavePackage: Moving '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Saved/2DSideScrollerExampleMap99812A654F08C1FDFA836AA1AFAC57FF.tmp' to '../../../../../../Users/Michael Herbert/Documents/GitHub/SpaceRace/Content/EndlessRunner/Maps/2DSideScrollerExampleMap.umap'
+[2015.05.11-18.02.34:437][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.11-18.02.34:855][932]Cmd: QUIT_EDITOR
+[2015.05.11-18.02.35:097][932]LogExit: Preparing to exit.
+[2015.05.11-18.02.35:397][932]LogExit: Editor shut down
+[2015.05.11-18.02.35:397][932]LogExit: Transaction tracking system shut down
+[2015.05.11-18.02.35:399][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D8BCAE0
+[2015.05.11-18.02.35:400][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000206780E0
+[2015.05.11-18.02.35:400][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020885A80
+[2015.05.11-18.02.35:482][932]LogExit: Object subsystem successfully closed.
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.05.11-18.02.35:532][932]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.05.11-18.02.35:533][932]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.05.11-18.02.36:434][932]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.05.11-18.02.36:499][932]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.05.11-18.02.36:499][932]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.05.11-18.02.36:499][932]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.05.11-18.02.36:500][932]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.05.11-18.02.36:501][932]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.05.11-18.02.36:501][932]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.05.11-18.02.36:578][932]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.05.11-18.02.36:579][932]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.05.11-18.02.36:579][932]LogModuleManager: Shutting down and abandoning module SpaceRace (81)
+[2015.05.11-18.02.36:579][932]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.11-18.02.36:579][932]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.11-18.02.36:679][932]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.11-18.02.36:679][932]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.11-18.02.36:680][932]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.11-18.02.36:680][932]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.11-18.02.36:680][932]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.11-18.02.36:680][932]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.11-18.02.36:680][932]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.11-18.02.36:680][932]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.11-18.02.36:680][932]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.11-18.02.36:681][932]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.11-18.02.36:683][932]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.11-18.02.36:781][932]LogDerivedDataCache: Shutdown
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.11-18.02.36:781][932]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.11-18.02.36:783][932]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.11-18.02.36:784][932]LogExit: Exiting.
+[2015.05.11-18.02.36:788][932]Log file closed, 05/12/15 04:02:36
