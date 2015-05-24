@@ -2103,4 +2103,37 @@ Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres
 [2015.05.24-03.18.03:689][124]LogWorld: Bringing up level for play took: 0.007895
 [2015.05.24-03.18.03:698][124]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.237
 [2015.05.24-03.18.10:282][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A19CD60
-[2015.05.
+[2015.05.24-03.18.13:985][234]LogSavePackage: Save=116.167992ms
+[2015.05.24-03.18.13:985][234]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/Saved/2DSideScrollerExampleMapF3A2B91248FFC49FFCF4EE80D014E24C.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/Content/EndlessRunner/Maps/2DSideScrollerExampleMap.umap'
+[2015.05.24-03.19.47:857][513]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.24-03.19.47:858][513]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 May 2015 11:19:47 pm)
+[2015.05.24-03.19.47:863][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004969s)
+[2015.05.24-03.19.47:864][513]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2015.05.24-03.19.47:865][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006175s)
+[2015.05.24-03.19.47:917][513]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.24-03.19.47:920][513]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.24-03.19.47:927][513]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.24-13.19.47
+[2015.05.24-03.19.47:928][513]LogWorld: Bringing up level for play took: 0.007830
+[2015.05.24-03.19.47:931][513]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.464
+[2015.05.24-03.19.51:388][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A1D3920
+[2015.05.24-03.19.53:732][ 81]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.24-03.19.53:732][ 81]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 May 2015 11:19:53 pm)
+[2015.05.24-03.19.53:738][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004925s)
+[2015.05.24-03.19.53:738][ 81]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2015.05.24-03.19.53:739][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006136s)
+[2015.05.24-03.19.53:796][ 81]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.24-03.19.53:798][ 81]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.24-03.19.53:806][ 81]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.24-13.19.53
+[2015.05.24-03.19.53:807][ 81]LogWorld: Bringing up level for play took: 0.007939
+[2015.05.24-03.19.53:816][ 81]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.349
+[2015.05.24-03.20.03:717][264]LogBlueprintUserMessages: Hello
+[2015.05.24-03.20.03:726][265]LogScript:Warning: Cannot access 'Root'. It is pending kill. Property: 'Root'
+	Wave1_C /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Wave1_373
+	Function /Game/EndlessRunner/Blueprints/Wave1.Wave1_C:ExecuteUbergraph_Wave1:01B1
+[2015.05.24-03.20.03:727][265]PIE:Error: Error Cannot access 'Root'. It is pending kill. Property: 'Root' from node Construction Script in blueprint Wave1
+[2015.05.24-03.20.11:123][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BBD8360
+[2015.05.24-03.21.33:421][ 62]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.24-03.21.33:422][ 62]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 May 2015 11:21:33 pm)
+[2015.05.24-03.21.33:428][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004991s)
+[2015.05.24-03.21.33:428][ 62]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2015.05.24-03.21.33:429][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleM
