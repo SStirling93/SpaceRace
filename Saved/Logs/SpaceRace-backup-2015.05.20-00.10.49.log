@@ -1,0 +1,666 @@
+﻿Log file open, 05/19/15 23:57:44
+LogInit:Display: Running engine for game: SpaceRace
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: W:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.19-13.57.44:796][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.05.19-13.57.44:869][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.19-13.57.44:899][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.19-13.57.44:908][  0]LogInit: Object subsystem initialized
+[2015.05.19-13.57.44:910][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.19-13.57.44:910][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.19-13.57.44:910][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.19-13.57.44:910][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.19-13.57.44:911][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.19-13.57.44:911][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.19-13.57.44:911][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.19-13.57.44:912][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.19-13.57.44:915][  0]LogInit: Computer: LAB-SEFS515-04
+[2015.05.19-13.57.44:915][  0]LogInit: User: n8695164
+[2015.05.19-13.57.44:915][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.05.19-13.57.44:915][  0]LogInit: High frequency timer resolution =3.222841 MHz
+[2015.05.19-13.57.44:916][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx) Virtual=8192.0GB
+[2015.05.19-13.57.44:916][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.19-13.57.44:916][  0]LogMemory: Process Physical Memory: 46.70 MB used, 46.70 MB peak
+[2015.05.19-13.57.44:917][  0]LogMemory: Process Virtual Memory: 24.78 MB used, 24.78 MB peak
+[2015.05.19-13.57.44:917][  0]LogMemory: Physical Memory: 5096.61 MB used, 32720.52 MB total
+[2015.05.19-13.57.44:917][  0]LogMemory: Virtual Memory: 276.20 MB used, 8388608.00 MB total
+[2015.05.19-13.57.44:966][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 680 (Feature Level 11_0)
+[2015.05.19-13.57.44:967][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.05.19-13.57.44:967][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.19-13.57.44:971][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.19-13.57.44:999][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.19-13.57.45:060][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.19-13.57.45:111][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.19-13.57.45:112][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (W:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.19-13.57.45:180][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.19-13.57.47:326][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-13.57.47:841][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-13.57.47:912][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.19-13.57.47:944][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.19-13.57.47:945][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.19-13.57.47:945][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/n8695164/Desktop/SpaceRace/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.19-13.57.47:946][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.19-13.57.48:055][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.19-13.57.48:067][  0]LogDerivedDataCache: Using Local data cache path C:/Users/n8695164/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.19-13.57.48:344][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.19-13.57.48:344][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.19-13.57.48:677][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.19-13.57.48:767][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.19-13.57.49:631][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.19-13.57.49:908][  0]SourceControl: Info Source control is disabled
+[2015.05.19-13.57.49:908][  0]SourceControl: Info Source control is disabled
+[2015.05.19-13.57.49:908][  0]SourceControl: Info Source control is disabled
+[2015.05.19-13.57.49:909][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.19-13.57.49:909][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.19-13.57.49:917][  0]SourceControl: Info Source control is disabled
+[2015.05.19-13.57.50:180][  0]LogObj: 24236 objects as part of root set at end of initial load.
+[2015.05.19-13.57.50:180][  0]LogUObjectAllocator: 5138800 out of 0 bytes used by permanent object pool.
+[2015.05.19-13.57.50:268][  0]LogEngine: Initializing Engine...
+[2015.05.19-13.57.52:410][  0]LogInit: XAudio2 using 'DELL S2340T-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.19-13.57.52:427][  0]LogInit: FAudioDevice initialized.
+[2015.05.19-13.57.52:466][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.19-13.57.52:483][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/n8695164/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.19-13.57.52:488][  0]LogInit: Texture streaming: Enabled
+[2015.05.19-13.57.52:577][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.19-13.57.52:577][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.19-13.57.52:577][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.19-13.57.52:577][  0]LogAnalytics: SetUserId e54a3c4247f39b2d12bdc7b239e6cb1e|2a92c9890bbe47f38451fa259ee33fd8|88cf9443-166a-43f7-9f17-b5321103ecb1
+[2015.05.19-13.57.52:578][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.19-13.57.52:598][  0]LogInit: Transaction tracking system initialized
+[2015.05.19-13.57.52:869][  0]BlueprintLog: New page: Editor Load
+[2015.05.19-13.57.52:909][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.05.19-13.57.52:909][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.19-13.57.53:477][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-13.57.53:804][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.19-13.57.54:173][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.19-13.57.54:174][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.19-13.57.54:178][  0]LogConsoleResponse:Display: 
+[2015.05.19-13.57.54:291][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.19-13.57.54:500][  0]SourceControl: Info Source control is disabled
+[2015.05.19-13.57.54:500][  0]Cmd: MAP LOAD FILE="C:/Users/n8695164/Desktop/SpaceRace/Content/EndlessRunner/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.19-13.57.54:501][  0]LightingResults: New page: Lighting Build
+[2015.05.19-13.57.54:513][  0]MapCheck: New page: Map Check
+[2015.05.19-13.57.54:514][  0]LightingResults: New page: Lighting Build
+[2015.05.19-13.57.54:519][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000139FE520
+[2015.05.19-13.57.56:380][  0]LogBlueprint:Error: [compiler] Error Found more than one function with the same name BndEvt__Small Pirate_K2Node_ComponentBoundEvent_91_ComponentHitSignature__DelegateSignature; second occurance at  OnComponentHit (Small Pirate) 
+[2015.05.19-13.57.56:380][  0]LogBlueprint:Error: [compiler] Error Found more than one function with the same name BndEvt__Small Pirate_K2Node_ComponentBoundEvent_91_ComponentHitSignature__DelegateSignature; second occurance at  OnComponentHit (Small Pirate) 
+[2015.05.19-13.57.56:403][  0]LogBlueprint:Warning: [compiler] Warning [0013.46] Compile of Wave5 failed. 2 Fatal Issue(s) 0 Warning(s) [in 75 ms]
+[2015.05.19-13.57.56:404][  0]LogBlueprint:Warning: [compiler] Warning [0013.46] Compile of Wave5 failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.19-13.57.56:404][  0]LogBlueprint:Warning: [compiler] Warning [0013.46] Compile of Wave5 failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.19-13.57.56:404][  0]LogBlueprint:Warning: [compiler] Warning [0013.46] Compile of Wave5 failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.05.19-13.58.01:494][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.19-13.58.01:495][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.19-13.58.01:496][  0]Cmd: MAP CHECKDEP
+[2015.05.19-13.58.01:496][  0]MapCheck: New page: 2DSideScrollerExampleMap - 20 May 2015 9:58:01 am
+[2015.05.19-13.58.01:695][  0]MapCheck:Warning: Warning Sprite0 PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_1.Sprite0 : Externally referenced 
+[2015.05.19-13.58.01:696][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_1.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:696][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2199.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:697][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2200.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:697][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2201.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:697][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2202.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:698][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2203.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:698][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2204.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:698][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2205.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:699][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2206.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:699][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2207.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:699][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2208.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:700][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_2209.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:700][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1023.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:700][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1024.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:700][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1025.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:701][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1026.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:701][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1027.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:701][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1028.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:702][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1029.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:702][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1030.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:702][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1031.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:703][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1032.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:703][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_1033.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:703][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_550.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:703][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_551.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:704][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_552.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:704][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_553.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:704][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_554.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:705][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_555.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:705][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_556.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:705][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_557.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:706][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_558.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:706][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_559.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:706][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin_C_560.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:706][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_StartLevel_416.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:707][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_MidLevel_263.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:707][  0]MapCheck:Warning: Warning PaperSprite PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.LargeAsteroid_114.PaperSprite : Externally referenced 
+[2015.05.19-13.58.01:707][  0]MapCheck:Warning: Warning RightEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.RightEdge : Externally referenced 
+[2015.05.19-13.58.01:708][  0]MapCheck:Warning: Warning LeftEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.LeftEdge : Externally referenced 
+[2015.05.19-13.58.01:708][  0]MapCheck:Warning: Warning TopEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.TopEdge : Externally referenced 
+[2015.05.19-13.58.01:708][  0]MapCheck:Warning: Warning BottomEdge PaperSpriteComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Gameplay_Screen_C_0.BottomEdge : Externally referenced 
+[2015.05.19-13.58.01:709][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin3_127.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:709][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin4_258.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:709][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin5_377.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:710][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin6_576.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:710][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin7_707.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:710][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin8_846.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:710][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin9_961.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:711][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin10_1092.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:711][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin11_1239.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:711][  0]MapCheck:Warning: Warning PaperFlipbook PaperFlipbookComponent /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Coin12_1430.PaperFlipbook : Externally referenced 
+[2015.05.19-13.58.01:712][  0]MapCheck: Info Map check complete: 0 Error(s), 52 Warning(s), took 215.363ms to complete.
+[2015.05.19-13.58.01:724][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 7.223
+[2015.05.19-13.58.01:838][  0]LogCollectionManager: Loaded 0 collections in 0.001399 seconds
+[2015.05.19-13.58.01:848][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 1697 classes and 263 folders.
+[2015.05.19-13.58.01:894][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2015.05.19-13.58.01:958][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.19-13.58.01:959][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.19-13.58.01:998][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.19-13.58.02:028][  0]LogLoad: Full Startup: 19.09 seconds (BP compile: 3.12 seconds)
+[2015.05.19-13.58.02:062][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/EndlessRunner/Blueprints'
+[2015.05.19-13.58.02:228][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.05.19-13.58.02:832][  6]LogAssetRegistry: Asset discovery search completed in 9.9325 seconds
+[2015.05.19-13.58.06:321][398]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.19-13.58.07:782][398]PIE: New page: PIE session: 2DSideScrollerExampleMap (20 May 2015 9:58:07 am)
+[2015.05.19-13.58.07:797][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005759s)
+[2015.05.19-13.58.07:798][398]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2015.05.19-13.58.07:799][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007234s)
+[2015.05.19-13.58.07:851][398]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.19-13.58.07:854][398]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.19-13.58.07:862][398]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.19-23.58.07
+[2015.05.19-13.58.07:863][398]LogWorld: Bringing up level for play took: 0.009141
+[2015.05.19-13.58.07:887][398]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.621
+[2015.05.19-13.58.12:519][945]LogBlueprintUserMessages: Hello
+[2015.05.19-13.58.16:252][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.19-13.58.16:311][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030E3DB20
+[2015.05.19-13.58.19:092][712]LogEditorViewport: Clicking on Actor (LMB): BP_Coin_C (BP_Coin560)
+[2015.05.19-13.58.27:416][694]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.19-13.58.34:643][171]LogRenderer:Warning: Reallocating scene render targets to support 1408x712 (Frame:2082).
+[2015.05.19-13.59.38:617][252]LogEditorTransaction: Undo Modify Component(s)
+[2015.05.19-13.59.52:202][100]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-13.59.52:373][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.19-13.59.52:421][100]BlueprintEditorCompileResults: Info [0129.47] Compile of ShipCharacter successful! [in 218 ms]
+[2015.05.19-13.59.54:937][212]LogEditorViewport: Clicking on Actor (LMB): BP_StartLevel_C (BP_StartLevel)
+[2015.05.19-13.59.56:056][298]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-13.59.56:060][298]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.19-13.59.56:129][298]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.19-13.59.56:346][298]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.19-13.59.56:396][298]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.19-13.59.56:456][298]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.19-13.59.56:507][298]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.19-13.59.56:516][298]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.19-13.59.56:589][298]LogBlueprint:Warning: [compiler] Warning [0133.63] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 77 ms]
+[2015.05.19-13.59.56:589][298]LogBlueprint:Warning: [compiler] Warning [0133.64] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.19-13.59.56:590][298]LogBlueprint:Warning: [compiler] Warning [0133.64] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.19-13.59.56:593][298]LogBlueprint:Warning: [compiler] Warning [0133.64] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2015.05.19-13.59.56:603][298]LogBlueprint:Warning: [compiler] Warning [0133.65] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 9 ms]
+[2015.05.19-13.59.56:603][298]LogBlueprint:Warning: [compiler] Warning [0133.65] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.19-13.59.56:606][298]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.19-13.59.56:676][298]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.19-13.59.56:719][298]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.19-13.59.56:770][298]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.19-13.59.56:967][298]LogPlayLevel: PIE:  Blueprint regeneration took 910 ms (10 blueprints)
+[2015.05.19-13.59.58:003][298]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.19-13.59.58:003][298]PIE: New page: PIE session: 2DSideScrollerExampleMap (20 May 2015 9:59:58 am)
+[2015.05.19-13.59.58:011][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005637s)
+[2015.05.19-13.59.58:012][298]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2015.05.19-13.59.58:012][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006876s)
+[2015.05.19-13.59.58:047][298]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.19-13.59.58:050][298]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.19-13.59.58:058][298]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.19-23.59.58
+[2015.05.19-13.59.58:060][298]LogWorld: Bringing up level for play took: 0.009189
+[2015.05.19-13.59.58:062][298]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 2.785
+[2015.05.19-14.00.01:323][540]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B892E80
+[2015.05.19-14.02.48:101][798]LogTexture:Display: Building textures: b13 (AutoDXT)
+[2015.05.19-14.02.48:114][798]LogTexture:Display: Building textures: b01 (AutoDXT)
+[2015.05.19-14.02.48:119][798]LogTexture:Display: Building textures: b02 (AutoDXT)
+[2015.05.19-14.02.48:125][798]LogTexture:Display: Building textures: b03 (AutoDXT)
+[2015.05.19-14.02.48:134][798]LogTexture:Display: Building textures: b04 (AutoDXT)
+[2015.05.19-14.02.48:142][798]LogTexture:Display: Building textures: b05 (AutoDXT)
+[2015.05.19-14.02.48:152][798]LogTexture:Display: Building textures: b06 (AutoDXT)
+[2015.05.19-14.02.48:162][798]LogTexture:Display: Building textures: b07 (AutoDXT)
+[2015.05.19-14.02.48:172][798]LogTexture:Display: Building textures: b08 (AutoDXT)
+[2015.05.19-14.02.48:182][798]LogTexture:Display: Building textures: b09 (AutoDXT)
+[2015.05.19-14.02.48:193][798]LogTexture:Display: Building textures: b10 (AutoDXT)
+[2015.05.19-14.02.48:203][798]LogTexture:Display: Building textures: b11 (AutoDXT)
+[2015.05.19-14.02.48:214][798]LogTexture:Display: Building textures: b12 (AutoDXT)
+[2015.05.19-14.02.48:227][798]LogTexture:Display: Building textures: b19 (AutoDXT)
+[2015.05.19-14.02.48:240][798]LogTexture:Display: Building textures: b26 (AutoDXT)
+[2015.05.19-14.02.48:257][798]LogTexture:Display: Building textures: b14 (AutoDXT)
+[2015.05.19-14.02.48:270][798]LogTexture:Display: Building textures: b15 (AutoDXT)
+[2015.05.19-14.02.48:283][798]LogTexture:Display: Building textures: b16 (AutoDXT)
+[2015.05.19-14.02.48:296][798]LogTexture:Display: Building textures: b17 (AutoDXT)
+[2015.05.19-14.02.48:308][798]LogTexture:Display: Building textures: b18 (AutoDXT)
+[2015.05.19-14.02.48:321][798]LogTexture:Display: Building textures: b22 (AutoDXT)
+[2015.05.19-14.02.48:336][798]LogTexture:Display: Building textures: b20 (AutoDXT)
+[2015.05.19-14.02.48:349][798]LogTexture:Display: Building textures: b21 (AutoDXT)
+[2015.05.19-14.02.48:362][798]LogTexture:Display: Building textures: b23 (AutoDXT)
+[2015.05.19-14.02.48:377][798]LogTexture:Display: Building textures: b24 (AutoDXT)
+[2015.05.19-14.02.48:394][798]LogTexture:Display: Building textures: b25 (AutoDXT)
+[2015.05.19-14.02.48:411][798]LogTexture:Display: Building textures: b39 (AutoDXT)
+[2015.05.19-14.02.48:437][798]LogTexture:Display: Building textures: b27 (AutoDXT)
+[2015.05.19-14.02.48:454][798]LogTexture:Display: Building textures: b28 (AutoDXT)
+[2015.05.19-14.02.48:471][798]LogTexture:Display: Building textures: b29 (AutoDXT)
+[2015.05.19-14.02.48:487][798]LogTexture:Display: Building textures: b30 (AutoDXT)
+[2015.05.19-14.02.48:508][798]LogTexture:Display: Building textures: b31 (AutoDXT)
+[2015.05.19-14.02.48:528][798]LogTexture:Display: Building textures: b32 (AutoDXT)
+[2015.05.19-14.02.48:548][798]LogTexture:Display: Building textures: b33 (AutoDXT)
+[2015.05.19-14.02.48:569][798]LogTexture:Display: Building textures: b34 (AutoDXT)
+[2015.05.19-14.02.48:590][798]LogTexture:Display: Building textures: b35 (AutoDXT)
+[2015.05.19-14.02.48:612][798]LogTexture:Display: Building textures: b36 (AutoDXT)
+[2015.05.19-14.02.48:634][798]LogTexture:Display: Building textures: b37 (AutoDXT)
+[2015.05.19-14.02.48:657][798]LogTexture:Display: Building textures: b38 (AutoDXT)
+[2015.05.19-14.02.48:682][798]LogTexture:Display: Building textures: b40 (AutoDXT)
+[2015.05.19-14.02.48:709][798]LogTexture:Display: Building textures: b41 (AutoDXT)
+[2015.05.19-14.02.48:737][798]LogTexture:Display: Building textures: b42 (AutoDXT)
+[2015.05.19-14.02.48:766][798]LogTexture:Display: Building textures: b43 (AutoDXT)
+[2015.05.19-14.02.48:795][798]LogTexture:Display: Building textures: b44 (AutoDXT)
+[2015.05.19-14.02.48:824][798]LogTexture:Display: Building textures: b45 (AutoDXT)
+[2015.05.19-14.02.48:856][798]LogTexture:Display: Building textures: b46 (AutoDXT)
+[2015.05.19-14.02.48:888][798]LogTexture:Display: Building textures: b47 (AutoDXT)
+[2015.05.19-14.02.48:921][798]LogTexture:Display: Building textures: b48 (AutoDXT)
+[2015.05.19-14.02.48:956][798]LogTexture:Display: Building textures: b49 (AutoDXT)
+[2015.05.19-14.02.48:988][798]LogTexture:Display: Building textures: b50 (AutoDXT)
+[2015.05.19-14.03.00:996][559]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.03.01:059][559]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.03.01:076][559]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.03.01:081][559]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.03.01:264][559]LogBlueprint:Warning: [compiler] Warning [0318.29] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 267 ms]
+[2015.05.19-14.03.01:264][559]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.03.01:265][559]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.03.01:265][559]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.03.01:265][559]BlueprintEditorCompileResults:Warning: Warning [0318.29] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 267 ms]
+[2015.05.19-14.04.57:173][312]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.04.57:235][312]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.04.57:252][312]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.04.57:257][312]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.04.57:430][312]LogBlueprint:Warning: [compiler] Warning [0434.45] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 256 ms]
+[2015.05.19-14.04.57:430][312]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.04.57:431][312]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.04.57:431][312]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.04.57:431][312]BlueprintEditorCompileResults:Warning: Warning [0434.45] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 256 ms]
+[2015.05.19-14.06.31:213][312]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.31:214][312]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.31:237][313]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.31:238][313]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.33:884][473]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.06.33:946][473]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.06.33:964][473]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.06.33:968][473]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.06.34:136][473]LogBlueprint:Warning: [compiler] Warning [0531.14] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 251 ms]
+[2015.05.19-14.06.34:137][473]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.06.34:137][473]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.06.34:137][473]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.06.34:137][473]BlueprintEditorCompileResults:Warning: Warning [0531.14] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 251 ms]
+[2015.05.19-14.06.38:341][726]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.38:341][726]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.combo bar' which is static to it. Aborting.
+[2015.05.19-14.06.38:342][726]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.38:343][726]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.combo bar' which is static to it. Aborting.
+[2015.05.19-14.06.38:365][727]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.38:366][727]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.combo bar' which is static to it. Aborting.
+[2015.05.19-14.06.38:367][727]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.power up bar' which is static to it. Aborting.
+[2015.05.19-14.06.38:367][727]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_5.combo bar' which is static to it. Aborting.
+[2015.05.19-14.06.43:387][ 62]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.06.43:450][ 62]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.06.43:467][ 62]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.06.43:472][ 62]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.06.43:637][ 62]LogBlueprint:Warning: [compiler] Warning [0540.64] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.06.43:638][ 62]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.06.43:638][ 62]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.06.43:638][ 62]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.06.43:639][ 62]BlueprintEditorCompileResults:Warning: Warning [0540.64] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.07.01:222][220]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:223][220]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:224][220]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:224][220]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:226][220]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:226][220]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:227][220]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:227][220]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:255][221]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:255][221]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:256][221]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.01:256][221]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:423][470]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:423][470]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:424][470]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:425][470]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:426][470]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:427][470]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:428][470]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:428][470]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:456][471]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:457][471]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:458][471]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.05:458][471]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_30.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.07:997][643]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.07.08:059][643]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.07.08:077][643]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.07.08:081][643]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.07.08:247][643]LogBlueprint:Warning: [compiler] Warning [0565.25] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.07.08:247][643]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.07.08:248][643]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.07.08:248][643]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.07.08:248][643]BlueprintEditorCompileResults:Warning: Warning [0565.25] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.07.25:649][807]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.25:649][807]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.25:650][807]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.25:651][807]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_1.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.25:674][808]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.25:675][808]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.25:676][808]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.25:676][808]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:193][149]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:193][149]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:194][149]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:195][149]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_8.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:218][150]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:219][150]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:219][150]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.power up bar' which is static to it. Aborting.
+[2015.05.19-14.07.31:220][150]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_18.combo bar' which is static to it. Aborting.
+[2015.05.19-14.07.39:734][714]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.07.39:796][714]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.07.39:813][714]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.07.39:818][714]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.07.39:983][714]LogBlueprint:Warning: [compiler] Warning [0596.98] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.07.39:984][714]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.07.39:984][714]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.07.39:984][714]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.07.39:985][714]BlueprintEditorCompileResults:Warning: Warning [0596.98] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.07.41:844][846]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.07.41:906][846]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.07.41:924][846]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.07.41:928][846]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.07.42:094][846]LogBlueprint:Warning: [compiler] Warning [0599.09] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.07.42:095][846]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.07.42:095][846]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.07.42:095][846]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.07.42:096][846]BlueprintEditorCompileResults:Warning: Warning [0599.09] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 249 ms]
+[2015.05.19-14.08.18:497][253]LogSavePackage: Save=118.793945ms
+[2015.05.19-14.08.18:497][253]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/Saved/2DSideScrollerExampleMap_Auto1E2C1AF1A4CB460F8840AAABB2CDA5570.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2015.05.19-14.08.18:509][253]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap' took 0.236
+[2015.05.19-14.08.18:509][253]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.236
+[2015.05.19-14.08.18:545][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EndlessRunner/Blueprints/ShipCharacter] ([1] browsable assets)...
+[2015.05.19-14.08.18:545][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/EndlessRunner/Blueprints/ShipCharacter]
+[2015.05.19-14.08.18:825][253]LogSavePackage: Save=237.124939ms
+[2015.05.19-14.08.18:826][253]LogSavePackage: Moving 'C:/Users/n8695164/Desktop/SpaceRace/Saved/ShipCharacter_Auto1CDE8B88E4C6F8AE2F995A8BE2EFA46B6.tmp' to 'C:/Users/n8695164/Desktop/SpaceRace/Saved/Autosaves/Game/EndlessRunner/Blueprints/ShipCharacter_Auto1.uasset'
+[2015.05.19-14.08.18:831][253]LogFileHelpers: Auto-saving content packages took 0.321
+[2015.05.19-14.08.30:084][989]PIE:Warning: Warning AttachTo: '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.ShipCharacter_C_2.power up bar' which is static to it. Aborting.
+[2015.05.19-14.08.30:100][989]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.power up bar' which is static to it. Aborting.
+[2015.05.19-14.08.30:101][989]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_10.power up bar' which is static to it. Aborting.
+[2015.05.19-14.08.30:136][990]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.power up bar' which is static to it. Aborting.
+[2015.05.19-14.08.30:137][990]PIE:Warning: Warning AttachTo: '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.CollisionCylinder' is not static  (in blueprint "ShipCharacter"), cannot attach '/Engine/Transient.World_2:PersistentLevel.ShipCharacter_C_14.power up bar' which is static to it. Aborting.
+[2015.05.19-14.08.32:978][227]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.08.33:039][227]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.08.33:057][227]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.08.33:061][227]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.08.33:237][227]LogBlueprint:Warning: [compiler] Warning [0650.23] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 258 ms]
+[2015.05.19-14.08.33:238][227]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.08.33:238][227]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.08.33:238][227]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.08.33:238][227]BlueprintEditorCompileResults:Warning: Warning [0650.23] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 258 ms]
+[2015.05.19-14.09.27:470][828]BlueprintLog: New page: Compile ShipCharacter
+[2015.05.19-14.09.27:532][828]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.09.27:549][828]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.09.27:554][828]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.09.27:729][828]LogBlueprint:Warning: [compiler] Warning [0704.72] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 257 ms]
+[2015.05.19-14.09.27:730][828]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.09.27:730][828]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.09.27:730][828]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.09.27:731][828]BlueprintEditorCompileResults:Warning: Warning [0704.72] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 257 ms]
+[2015.05.19-14.09.40:786][892]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.19-14.09.40:790][892]LogPlayLevel: [PIE] Compiling BP_Coin before PIE...
+[2015.05.19-14.09.40:861][892]LogPlayLevel: [PIE] Compiling BP_StartLevel before PIE...
+[2015.05.19-14.09.41:086][892]LogPlayLevel: [PIE] Compiling BP_Asteroid before PIE...
+[2015.05.19-14.09.41:139][892]LogPlayLevel: [PIE] Compiling BP_Coin2 before PIE...
+[2015.05.19-14.09.41:200][892]LogPlayLevel: [PIE] Compiling LargeAsteroid before PIE...
+[2015.05.19-14.09.41:254][892]LogPlayLevel: [PIE] Compiling RunHUD before PIE...
+[2015.05.19-14.09.41:263][892]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Coin gauge ': Member:Get_Coin gauge_bIsEnabled_0 Unable to bind Float Property, unsupported type.
+[2015.05.19-14.09.41:340][892]LogBlueprint:Warning: [compiler] Warning [0718.33] Compile of RunHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 82 ms]
+[2015.05.19-14.09.41:341][892]LogBlueprint:Warning: [compiler] Warning [0718.33] Compile of RunHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.19-14.09.41:341][892]LogBlueprint:Warning: [compiler] Warning [0718.33] Compile of RunHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.19-14.09.41:345][892]LogBlueprint:Warning: [compiler] Warning [0718.33] Compile of RunHUD failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2015.05.19-14.09.41:351][892]LogBlueprint:Warning: [compiler] Warning [0718.34] Compile of RunHUD failed. 1 Fatal Issue(s) 4 Warning(s) [in 5 ms]
+[2015.05.19-14.09.41:351][892]LogBlueprint:Warning: [compiler] Warning [0718.34] Compile of RunHUD failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.19-14.09.41:355][892]LogPlayLevel: [PIE] Compiling RunGameMode before PIE...
+[2015.05.19-14.09.41:427][892]LogPlayLevel: [PIE] Compiling BP_EndLevel before PIE...
+[2015.05.19-14.09.41:472][892]LogPlayLevel: [PIE] Compiling BP_MidLevel before PIE...
+[2015.05.19-14.09.41:523][892]LogPlayLevel: [PIE] Compiling ShipCharacter before PIE...
+[2015.05.19-14.09.41:584][892]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'PaperFlipbook' variable not found. Base class was probably changed.
+[2015.05.19-14.09.41:601][892]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "PaperFlipbook" in 'ShipCharacter_C'.
+Make sure 'ShipCharacter_C' has been compiled for  Destroy Component 
+[2015.05.19-14.09.41:606][892]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2015.05.19-14.09.41:728][892]LogBlueprint:Warning: [compiler] Warning [0718.71] Compile of ShipCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 188 ms]
+[2015.05.19-14.09.41:729][892]LogBlueprint:Warning: [compiler] Warning [0718.72] Compile of ShipCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.05.19-14.09.41:729][892]LogBlueprint:Warning: [compiler] Warning [0718.72] Compile of ShipCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.05.19-14.09.41:734][892]LogBlueprint:Warning: [compiler] Warning [0718.72] Compile of ShipCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 4 ms]
+[2015.05.19-14.09.41:749][892]LogBlueprint:Warning: [compiler] Warning [0718.74] Compile of ShipCharacter failed. 1 Fatal Issue(s) 6 Warning(s) [in 14 ms]
+[2015.05.19-14.09.41:749][892]LogBlueprint:Warning: [compiler] Warning [0718.74] Compile of ShipCharacter failed. 1 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.05.19-14.09.41:776][892]LogPlayLevel: PIE:  Blueprint regeneration took 990 ms (10 blueprints)
+[2015.05.19-14.09.43:674][892]BlueprintLog: Info Blueprint RunHUD failed to compile
+[2015.05.19-14.09.43:675][892]PIE: New page: PIE session: 2DSideScrollerExampleMap (20 May 2015 10:09:43 am)
+[2015.05.19-14.09.43:682][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005671s)
+[2015.05.19-14.09.43:683][892]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2015.05.19-14.09.43:683][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EndlessRunner/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006920s)
+[2015.05.19-14.09.43:715][892]LogWorld: Game class is 'RunGameMode_C'
+[2015.05.19-14.09.43:718][892]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.05.19-14.09.43:726][892]LogWorld: Bringing World /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.05.20-00.09.43
+[2015.05.19-14.09.43:727][892]LogWorld: Bringing up level for play took: 0.009124
+[2015.05.19-14.09.43:730][892]PIE: Info Play in editor start time for /Game/EndlessRunner/Maps/UEDPIE_0_2DSideScrollerExampleMap 2.394
+[2015.05.19-14.09.48:349][440]LogBlueprintUserMessages: Hello
+[2015.05.19-14.09.50:637][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A82BA60
+[2015.05.19-14.09.50:759][520]Cmd: QUIT_EDITOR
+[2015.05.19-14.09.50:953][520]LogExit: Preparing to exit.
+[2015.05.19-14.09.51:784][520]LogExit: Editor shut down
+[2015.05.19-14.09.51:784][520]LogExit: Transaction tracking system shut down
+[2015.05.19-14.09.51:802][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012A96700
+[2015.05.19-14.09.51:804][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012EF8FE0
+[2015.05.19-14.09.51:804][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000298A8CC0
+[2015.05.19-14.09.51:805][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002851A200
+[2015.05.19-14.09.51:805][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B78EC00
+[2015.05.19-14.09.51:869][520]LogExit: Object subsystem successfully closed.
+[2015.05.19-14.09.51:909][520]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (179)
+[2015.05.19-14.09.51:909][520]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.05.19-14.09.51:909][520]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.05.19-14.09.51:909][520]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.05.19-14.09.51:910][520]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.05.19-14.09.51:910][520]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.05.19-14.09.51:910][520]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.05.19-14.09.51:910][520]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.05.19-14.09.51:911][520]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.05.19-14.09.51:911][520]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.05.19-14.09.51:911][520]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.05.19-14.09.51:911][520]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.05.19-14.09.51:912][520]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.05.19-14.09.51:912][520]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.05.19-14.09.51:912][520]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.05.19-14.09.51:912][520]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.05.19-14.09.51:912][520]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.05.19-14.09.51:913][520]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.05.19-14.09.51:913][520]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.05.19-14.09.51:913][520]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.05.19-14.09.51:913][520]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.05.19-14.09.51:913][520]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.05.19-14.09.51:914][520]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.05.19-14.09.51:914][520]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.05.19-14.09.51:914][520]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.05.19-14.09.51:914][520]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.05.19-14.09.51:915][520]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.05.19-14.09.51:915][520]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.05.19-14.09.51:915][520]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.05.19-14.09.51:915][520]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.05.19-14.09.51:915][520]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.05.19-14.09.51:915][520]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.05.19-14.09.51:916][520]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.05.19-14.09.51:983][520]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.05.19-14.09.51:984][520]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.05.19-14.09.51:984][520]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.05.19-14.09.51:984][520]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.05.19-14.09.51:984][520]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.05.19-14.09.51:985][520]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.05.19-14.09.51:985][520]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.05.19-14.09.51:985][520]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.05.19-14.09.51:985][520]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.05.19-14.09.51:986][520]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.05.19-14.09.51:986][520]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.05.19-14.09.51:986][520]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.05.19-14.09.51:986][520]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.05.19-14.09.51:986][520]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.05.19-14.09.51:987][520]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.05.19-14.09.51:987][520]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.05.19-14.09.51:987][520]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.05.19-14.09.51:987][520]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.05.19-14.09.51:988][520]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.05.19-14.09.52:042][520]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.05.19-14.09.52:042][520]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.05.19-14.09.52:042][520]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.05.19-14.09.52:043][520]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.05.19-14.09.52:043][520]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.05.19-14.09.52:044][520]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.05.19-14.09.52:044][520]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.05.19-14.09.52:044][520]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.05.19-14.09.52:044][520]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.05.19-14.09.52:044][520]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.05.19-14.09.52:045][520]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.05.19-14.09.52:045][520]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.05.19-14.09.52:045][520]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.05.19-14.09.52:045][520]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.05.19-14.09.52:046][520]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.05.19-14.09.52:046][520]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.05.19-14.09.52:046][520]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.05.19-14.09.52:046][520]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.05.19-14.09.52:046][520]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.05.19-14.09.52:047][520]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.05.19-14.09.52:047][520]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.05.19-14.09.52:049][520]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.05.19-14.09.52:049][520]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.05.19-14.09.52:050][520]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.05.19-14.09.52:050][520]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.05.19-14.09.52:050][520]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.05.19-14.09.52:050][520]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.05.19-14.09.52:050][520]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.05.19-14.09.52:051][520]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.05.19-14.09.52:051][520]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.05.19-14.09.52:051][520]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.05.19-14.09.52:051][520]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.05.19-14.09.52:051][520]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.05.19-14.09.52:052][520]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.05.19-14.09.52:052][520]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.05.19-14.09.52:052][520]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.05.19-14.09.52:052][520]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.05.19-14.09.52:053][520]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.05.19-14.09.52:053][520]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.05.19-14.09.52:053][520]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.05.19-14.09.52:053][520]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.05.19-14.09.52:053][520]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.05.19-14.09.52:054][520]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.05.19-14.09.52:054][520]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.05.19-14.09.52:054][520]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.05.19-14.09.52:055][520]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.05.19-14.09.52:055][520]LogModuleManager: Shutting down and abandoning module SpaceRace (81)
+[2015.05.19-14.09.52:055][520]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.19-14.09.52:055][520]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.19-14.09.52:155][520]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.19-14.09.52:155][520]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.19-14.09.52:157][520]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.19-14.09.52:157][520]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.19-14.09.52:158][520]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.19-14.09.52:159][520]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.19-14.09.52:159][520]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.19-14.09.52:159][520]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.19-14.09.52:159][520]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.19-14.09.52:159][520]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.19-14.09.52:160][520]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.19-14.09.52:160][520]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.19-14.09.52:160][520]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.19-14.09.52:160][520]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.19-14.09.52:160][520]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.19-14.09.52:161][520]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.19-14.09.52:161][520]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.19-14.09.52:164][520]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.19-14.09.52:164][520]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.19-14.09.52:164][520]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.19-14.09.52:164][520]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.19-14.09.52:164][520]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.19-14.09.52:165][520]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.19-14.09.52:165][520]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.19-14.09.52:165][520]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.19-14.09.52:165][520]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.19-14.09.52:165][520]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.19-14.09.52:261][520]LogDerivedDataCache: Shutdown
+[2015.05.19-14.09.52:262][520]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.19-14.09.52:262][520]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.19-14.09.52:262][520]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.19-14.09.52:262][520]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.19-14.09.52:263][520]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.19-14.09.52:263][520]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.19-14.09.52:263][520]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.19-14.09.52:263][520]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.19-14.09.52:263][520]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.19-14.09.52:264][520]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.19-14.09.52:264][520]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.19-14.09.52:264][520]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.19-14.09.52:264][520]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.19-14.09.52:264][520]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.19-14.09.52:265][520]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.19-14.09.52:265][520]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.19-14.09.52:265][520]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.19-14.09.52:265][520]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.19-14.09.52:265][520]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.19-14.09.52:266][520]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.19-14.09.52:266][520]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.19-14.09.52:266][520]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.19-14.09.52:266][520]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.19-14.09.52:266][520]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.19-14.09.52:267][520]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.19-14.09.52:267][520]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.19-14.09.52:267][520]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.19-14.09.52:267][520]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.19-14.09.52:267][520]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.19-14.09.52:267][520]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.19-14.09.52:268][520]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.19-14.09.52:268][520]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.19-14.09.52:268][520]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.19-14.09.52:268][520]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.19-14.09.52:268][520]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.19-14.09.52:269][520]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.19-14.09.52:269][520]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.19-14.09.52:269][520]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.19-14.09.52:269][520]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.19-14.09.52:269][520]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.19-14.09.52:272][520]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.19-14.09.52:273][520]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.19-14.09.52:273][520]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.19-14.09.52:273][520]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.19-14.09.52:273][520]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.19-14.09.52:273][520]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.19-14.09.52:274][520]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.19-14.09.52:274][520]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.19-14.09.52:274][520]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.19-14.09.52:277][520]LogExit: Exiting.
+[2015.05.19-14.09.52:281][520]Log file closed, 05/20/15 00:09:52
